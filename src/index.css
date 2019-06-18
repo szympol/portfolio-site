@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@import './style/variables.scss';
+@import './style/vendors/normalize.scss';
+
+/*Components*/
