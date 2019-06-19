@@ -1,0 +1,43 @@
+.hero {
+    font-size: 50px;
+    line-height: 100vh;
+    text-align: center;
+    
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/23298a55526729.5988857400116.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    -webkit-animation: sk-clip 1.5s ease-in-out;
+    animation: sk-clip 1.5s ease-in-out;
+    z-index: -1;
+}
+
+
+@-webkit-keyframes sk-clip {
+    0% {
+        -webkit-clip-path: circle(50px at 50% 50%);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-clip-path: circle(100% at 50% 50%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes sk-clip {
+    0% {
+        -webkit-clip-path: circle(50px at 50% 50%);
+        clip-path: circle(50px at 50% 50%);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-clip-path: circle(100% at 50% 50%);
+        clip-path: circle(100% at 50% 50%);
+        opacity: 1;
+    }
+}
