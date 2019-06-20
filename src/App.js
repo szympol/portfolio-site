@@ -19,19 +19,39 @@ class App extends React.Component {
       this.setState({currentPage: number});
   };
 
+  goToPage = (eventKey) => {
+    console.log(eventKey);
+    this._pageScroller.goToPage(eventKey);
+};
 
+
+/* getPagesNumbers = () => {
+
+  const pageNumbers = [];
+
+  for (let i = 1; i <= 5; i++) {
+      pageNumbers.push(
+        <div key={i} eventKey={i - 1} onSelect={this.goToPage} className="nav__link"  onClick={this.toggleNav}>{i}</div>
+      )
+  }
+
+  return [...pageNumbers];
+}; */
 
   render() {
+
+
     return (
       <div className="wrapper">
+        <React.Fragment>
           <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
             <Hero/>
             <About/>
             <PortfolioBox/>
             <Technologies/>
           </ReactPageScroller>
-          <Navigation toggleNav={this.toggleNav}></Navigation>
-
+          <Navigation goToPage={this.goToPage}/>
+          </React.Fragment>
       </div>
       );
   }

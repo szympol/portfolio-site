@@ -1,9 +1,11 @@
 import React from "react";
 
-export default () => {
+const Technologies = () => {
     return (
         <div className="component fourth-component" id="technologies">
-            <h2>Fourth Component</h2>
+            <h2>Technologies</h2>
         </div>
     )
 }
+
+export default Technologies;
