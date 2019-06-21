@@ -1,0 +1,100 @@
+
+
+
+/* Breakpoint function */
+
+  @mixin breakpoint($class) {
+    @if $class == xs {
+      @media (max-width: 576px) {
+        @content;
+      }
+    } @else if $class == sm {
+      @media (min-width: 577px) and (max-width: 767px) {
+        @content;
+      }
+    } @else if $class == md {
+      @media (min-width: 768px) and (max-width: 991px) {
+        @content;
+      }
+    } @else if $class == lg {
+      @media (min-width: 992px) {
+        @content;
+      }
+    } @else if $class == xl {
+      @media (min-width: 1200px) {
+        @content;
+      }
+    } @else if $class == navTextSize {
+      @media (min-width: 768px) and (max-width: 865px) {
+        @content;
+      }
+    } @else {
+      @warn "Breakpoint mixin supports: xs, sm, md, lg, xl";
+    }
+  }
+  
+
+  
+  @for $i from 1 through 12 {
+    .col-xs-#{$i} {
+      $width: 100% / 12 * $i;
+      flex: 0 0 $width;
+      max-width: $width;
+    }
+  }
+  @for $i from 1 through 12 {
+    .col-sm-#{$i} {
+      $width: 100% / 12 * $i;
+      flex: 0 0 $width;
+      max-width: $width;
+    }
+  }
+  @for $i from 1 through 12 {
+    .col-md-#{$i} {
+      $width: 100% / 12 * $i;
+      flex: 0 0 $width;
+      max-width: $width;
+    }
+  }
+  @for $i from 1 through 12 {
+    .col-lg-#{$i} {
+      $width: 100% / 12 * $i;
+      flex: 0 0 $width;
+      max-width: $width;
+    }
+  }
+  @for $i from 1 through 12 {
+    .col-xl-#{$i} {
+      $width: 100% / 12 * $i;
+      flex: 0 0 $width;
+      max-width: $width;
+    }
+  }
+  
+  @mixin grid($prefix) {
+    @for $i from 1 through 12 {
+      .col-#{$prefix}-#{$i} {
+        $width: 100% / 12 * $i;
+        flex: 0 0 $width;
+        max-width: $width;
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    @include grid("xs");
+  }
+  @media (min-width: 577px) {
+    @include grid("sm");
+  }
+  
+  @media (min-width: 768px) {
+    @include grid("md");
+  }
+  
+  @media (min-width: 992px) {
+    @include grid("lg");
+  }
+  
+  @media (min-width: 1200px) {
+    @include grid("xl");
+  } 
