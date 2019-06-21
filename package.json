@@ -12,8 +12,10 @@
     "react-modal": "^3.8.1",
     "react-page-scroller": "^1.5.1",
     "react-parallax": "^2.2.0",
+    "react-responsive": "^7.0.0",
     "react-scripts": "3.0.1",
-    "react-scroll-parallax": "^2.1.2"
+    "react-scroll-parallax": "^2.1.2",
+    "react-switch-lang": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

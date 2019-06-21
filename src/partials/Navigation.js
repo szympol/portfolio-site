@@ -31,8 +31,8 @@ class Navigation extends React.Component {
 
         const menu = ['home', 'about', 'portfolio', 'technology'];
         const menuItems = menu.map((menuItem, i) => 
-            <div key={i} eventkey={i} onClick={() => this.props.goToPage(i)}>
-                <div className="nav__link" onClick={this.toggleNav}>{menuItem}</div>
+            <div className="nav__link" key={i} eventkey={i} onClick={() => {this.props.goToPage(i); this.toggleNav();}}>
+                {menuItem}
             </div>
             
         );        
