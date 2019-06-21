@@ -25,21 +25,7 @@ class App extends React.Component {
 };
 
 
-/* getPagesNumbers = () => {
-
-  const pageNumbers = [];
-
-  for (let i = 1; i <= 5; i++) {
-      pageNumbers.push(
-        <div key={i} eventKey={i - 1} onSelect={this.goToPage} className="nav__link"  onClick={this.toggleNav}>{i}</div>
-      )
-  }
-
-  return [...pageNumbers];
-}; */
-
   render() {
-
 
     return (
       <div className="wrapper">

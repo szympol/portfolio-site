@@ -21,27 +21,29 @@ class Navigation extends React.Component {
         toggle.classList.toggle('active');
   
         // Show Nav Items
-        for (var i = 0, ii = navItems.length; i < ii; i++) {
+        for (let i = 0, ii = navItems.length; i < ii; i++) {
             navItems[i].classList.toggle('active');
         }
       }
 
 
 	render() {
-        const menu = ['Home', 'About', 'Portfolio', 'Technology'];
+
+        const menu = ['home', 'about', 'portfolio', 'technology'];
         const menuItems = menu.map((menuItem, i) => 
-            <div key={i} eventkey={i} className="nav__link" onClick={() => this.props.goToPage(i)}>{menuItem}</div>
-        );
+            <div key={i} eventkey={i} onClick={() => this.props.goToPage(i)}>
+                <div className="nav__link" onClick={this.toggleNav}>{menuItem}</div>
+            </div>
+            
+        );        
+
+
 
 		return (
 
         <div>
             <nav className="nav">
                 {menuItems}
-              {/*   <a href="#hero" className="nav__link"  onClick={this.toggleNav}>Home</a>
-                <a href="#about" className="nav__link" onClick={this.toggleNav}>About</a>
-                <a href="#portfolio" className="nav__link" onClick={this.toggleNav}>Portfolio</a>
-                <a href="#technologies" className="nav__link" onClick={this.toggleNav}>Technology</a> */}
             </nav>
 
             <div className="hamburger" onClick={this.toggleNav}>
