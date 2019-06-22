@@ -4,6 +4,11 @@
     background-size: contain!important;
     background-repeat: no-repeat!important;
     background-position: 50%!important;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        transform: scale(1.2);
+    }
     &__background--1 {
         background: url('./images/html5.png');
     }
@@ -11,13 +16,13 @@
         background: url('./images/css3.png');
     }
     &__background--3 {
-        background: url('./images/css3.png');
+        background: url('./images/rwd.png');
     }
     &__background--4 {
         background: url('./images/js.png');
     }
     &__background--5 {
-        background: url('./images/bootstrap.jpg');
+        background: url('./images/bootstrap.png');
     }
     &__background--6 {
         background: url('./images/sass.png');
@@ -38,13 +43,13 @@
         background: url('./images/node.png');
     }
     &__background--12 {
-        background: url('./images/expressjs-logo.png');
+        background: url('./images/expressjs-logo_big.jpg');
     }
     &__background--13 {
         background: url('./images/mongodb.png');
     }
     &__background--14 {
-        background: url('./images/git.jpg');
+        background: url('./images/git.png');
     }
     &__background--15 {
         background: url('./images/npm.png');
@@ -56,6 +61,6 @@
         background: url('./images/prestashop.png');
     }
     &__background--18 {
-        background: url('./images/sap.jpg');
+        background: url('./images/sap.png');
     }
 }

@@ -56,6 +56,7 @@ section {
   h1, h2 {
     font-size: 3em;
     position: relative;
+    margin-bottom: 100px;
     &::after {
       content: "";
       position:absolute;

@@ -10,7 +10,7 @@ const About = () => {
           <p>
             The moment I wrote my first lines of code, I knew that I found
             myself. What I love about web development is that it helped me in
-            rediscovering and reinvigorating his creativity. The combination of
+            rediscovering and reinvigorating my creativity. The combination of
             design and logic is what I was looking for.
           </p>{" "}
           <p>
