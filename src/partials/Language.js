@@ -15,7 +15,7 @@ import {
   // Do this two lines only when setting up the application
 setTranslations({ en, pl });
 setDefaultLanguage('pl');
- 
+
 // If you want to remember selected language
 setLanguageCookie();
 
@@ -24,14 +24,14 @@ class Language extends React.Component  {
     handleSetLanguage = (key) => () => {
         setLanguage(key);
       };
-   
+
    render() {
     const { t } = this.props;
-    
+
     return (
         <div>
         <div className="component fifth-component" id="language">
-                    
+
             <span>Language</span>
 
             <div className="language">
@@ -54,7 +54,7 @@ class Language extends React.Component  {
           EN
         </button>
         </div>
- 
+
         </div>
 
 

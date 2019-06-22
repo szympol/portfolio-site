@@ -8,6 +8,7 @@ import About from "./partials/About";
 import PortfolioBox from "./partials/PortfolioBox";
 import Technologies from "./partials/Technologies";
 import Navigation from "./partials/Navigation";
+import Footer from "./partials/Footer";
 
 class App extends React.Component {
   constructor(props) {
@@ -39,6 +40,7 @@ class App extends React.Component {
         <Technologies/>
         </ReactPageScroller>
         <Navigation goToPage={this.goToPage}/>
+        <Footer/>
         </React.Fragment>
         </MediaQuery>
         <MediaQuery  maxWidth={767}>
@@ -46,6 +48,7 @@ class App extends React.Component {
           <About/>
           <PortfolioBox/>
           <Technologies/>
+          <Footer/>
         </MediaQuery>
       </div>
       );
