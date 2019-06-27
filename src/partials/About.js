@@ -6,7 +6,7 @@ const About = () => {
       <div className="container about">
         <h1>About me</h1>
         <div className="about__text-dashed">
-          <p>Passionate, result-oriented, reliable, team player.</p>{" "}
+          <p>Passionate, result-oriented, reliable, team player. A big fan of React.</p>{" "}
           <p>
             The moment I wrote my first lines of code, I knew that I found
             myself. What I love about web development is that it helped me in

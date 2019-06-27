@@ -5,7 +5,7 @@
 .technology {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
 }
 
 
@@ -18,7 +18,7 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     &:hover {
-        transform: scale(1.2);
+        transform: scale(1.5) rotate(10deg);
     }
     img {
         max-height: 80px;
