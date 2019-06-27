@@ -31,19 +31,20 @@ class App extends React.Component {
 
     return (
       <div className="wrapper">
-        <MediaQuery minWidth={768}>
+        <MediaQuery minWidth={992}>
           <React.Fragment>
-        <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
-        <Hero/>
-        <About/>
-        <PortfolioBox/>
-        <Technologies/>
-        </ReactPageScroller>
-        <Navigation goToPage={this.goToPage}/>
-        <Footer/>
+            <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
+            <Hero/>
+            <About/>
+            <PortfolioBox/>
+            <Technologies/>
+            </ReactPageScroller>
+            <Navigation goToPage={this.goToPage}/>
+            <Footer/>
         </React.Fragment>
         </MediaQuery>
-        <MediaQuery  maxWidth={767}>
+        <MediaQuery  maxWidth={991}>
+          <Navigation/>
           <Hero/>
           <About/>
           <PortfolioBox/>

@@ -18,6 +18,9 @@ html, body {
   @include breakpoint('sm') {
     overflow: auto;
   }
+  @include breakpoint('md') {
+    overflow: auto;
+  }
   scroll-behavior: smooth;
   font-family: 'eurostile', sans-serif;
   -webkit-font-smoothing: antialiased;

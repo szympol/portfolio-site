@@ -15,7 +15,7 @@ $hamburgerSize: 60px;
   background: #fff;
   clip-path: circle(29px at calc(#{$navWidth} - 5vw - #{$hamburgerSize / 2}) calc(5vh + #{$hamburgerSize / 2}));
   transition: all .8s cubic-bezier(0.86, 0, 0.07, 1);
-  
+  z-index: 999;
   &.active {
     clip-path: circle(75% at #{$navWidth / 2} 50vh);
   }
@@ -62,6 +62,7 @@ $hamburgerSize: 60px;
   top: 5vh;
   right: 5vw;
   background: #fff;
+  z-index: 1000;
   
   &__patty {
     position: absolute;

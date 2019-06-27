@@ -1,5 +1,4 @@
 import React from "react";
-import '../style/components/Navigation.scss' 
 
 
 class Navigation extends React.Component {
@@ -15,33 +14,47 @@ class Navigation extends React.Component {
         const navItems = nav.querySelectorAll('.nav__link');
 
         // Show Nav
-        nav.classList.toggle('active');   
-  
+        nav.classList.toggle('active');
+
         // Transform Hamburger into 'X'
         toggle.classList.toggle('active');
-  
+
         // Show Nav Items
         for (let i = 0, ii = navItems.length; i < ii; i++) {
             navItems[i].classList.toggle('active');
         }
       }
 
+      getWindowInnerWidth = () => {
+          let innerWidth = window.innerWidth;
+          const isDesktopOrLaptop = (innerWidth >= 992) ? true : false;
+          return isDesktopOrLaptop;
+      }
+
 
 	render() {
 
         const menu = ['home', 'about', 'portfolio', 'technology'];
-        const menuItems = menu.map((menuItem, i) => 
+        const isDesktopOrLaptop = this.getWindowInnerWidth();
+
+        const menuItemsDesktopOrLaptop = menu.map((menuItem, i) =>
             <div className="nav__link" key={i} eventkey={i} onClick={() => {this.props.goToPage(i); this.toggleNav();}}>
                 {menuItem}
             </div>
-            
-        );        
+        );
+
+        const menuItemsTabletOrMobile = menu.map((menuItem, i) =>
+            <a href={'#' + menuItem} className="nav__link" key={i} onClick={this.toggleNav}>
+                {menuItem}
+            </a>
+        );
+
 
 		return (
 
         <div>
-            <nav className="nav">
-                {menuItems}
+            <nav className="nav" onChange={this.getWindowInnerWidth}>
+            `{isDesktopOrLaptop ? menuItemsDesktopOrLaptop : menuItemsTabletOrMobile}`
             </nav>
 
             <div className="hamburger" onClick={this.toggleNav}>
