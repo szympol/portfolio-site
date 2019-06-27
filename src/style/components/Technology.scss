@@ -1,66 +1,27 @@
+#technology {
+    background: $second-background;
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
 .technology__icons {
-    height: 80px;
-    margin: 30px 0;
-    background-size: contain!important;
-    background-repeat: no-repeat!important;
-    background-position: 50%!important;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    justify-content: center;
+    justify-items: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     &:hover {
         transform: scale(1.2);
     }
-    &__background--1 {
-        background: url('./images/html5.png');
-    }
-    &__background--2 {
-        background: url('./images/css3.png');
-    }
-    &__background--3 {
-        background: url('./images/rwd.png');
-    }
-    &__background--4 {
-        background: url('./images/js.png');
-    }
-    &__background--5 {
-        background: url('./images/bootstrap.png');
-    }
-    &__background--6 {
-        background: url('./images/sass.png');
-    }
-    &__background--7 {
-        background: url('./images/rest.jpg');
-    }
-    &__background--8 {
-        background: url('./images/react.png');
-    }
-    &__background--9 {
-        background: url('./images/react-router-logo.png');
-    }
-    &__background--10 {
-        background: url('./images/redux.png');
-    }
-    &__background--11 {
-        background: url('./images/node.png');
-    }
-    &__background--12 {
-        background: url('./images/expressjs-logo_big.jpg');
-    }
-    &__background--13 {
-        background: url('./images/mongodb.png');
-    }
-    &__background--14 {
-        background: url('./images/git.png');
-    }
-    &__background--15 {
-        background: url('./images/npm.png');
-    }
-    &__background--16 {
-        background: url('./images/webpack.png');
-    }
-    &__background--17 {
-        background: url('./images/prestashop.png');
-    }
-    &__background--18 {
-        background: url('./images/sap.png');
+    img {
+        max-height: 80px;
+        width: auto;
     }
 }

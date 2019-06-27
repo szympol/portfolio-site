@@ -59,6 +59,7 @@ section {
   h1, h2 {
     font-size: 3em;
     position: relative;
+    margin-top: 0px;
     margin-bottom: 100px;
     &::after {
       content: "";
@@ -72,15 +73,12 @@ section {
   }
 }
 
-.component.third-component {
-  background-color: blue;
-}
-
 
 /*Components*/
 @import './style/components/Navigation.scss';
 @import './style/components/Hero.scss';
-@import './style//components/About.scss';
+@import './style/components/About.scss';
+@import './style/components/Portfolio.scss';
 @import './style/components/Technology.scss';
 @import './style/components/Footer.scss';
 @import './style/components/Language.scss';
