@@ -3,6 +3,7 @@ import './App.scss';
 import ReactPageScroller from "react-page-scroller";
 import MediaQuery from 'react-responsive';
 
+
 import Hero from "./partials/Hero";
 import About from "./partials/About";
 import PortfolioBox from "./partials/PortfolioBox";
