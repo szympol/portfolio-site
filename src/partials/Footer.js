@@ -6,6 +6,7 @@ import { faAt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import ReactTooltip from 'react-tooltip'
 
 
 class Footer extends React.Component {
@@ -26,6 +27,11 @@ class Footer extends React.Component {
         this.setState({modalIsOpen: false});
       }
 
+      rotateTooltip = (e) =>{
+        let a = document.querySelector('.tooltip')
+        a.classList.add('rotateTooltip');
+      }
+
       render() {
         return (
           <footer>
@@ -38,8 +44,11 @@ class Footer extends React.Component {
               contentLabel="Footer Modal"
             >
               <div className="footer__modal__info">
-                <div className="footer__modal__info--email">
-                    <p><FontAwesomeIcon icon={faAt} /></p>
+                <div className="footer__modal__info--email" >
+                    <p data-tip data-for='happyFace'><FontAwesomeIcon icon={faAt} /></p>
+                    <ReactTooltip className='tooltip' id='happyFace' type='error' effect='solid' afterShow={ this.rotateTooltip } place='top'>
+  <span>szympol@hotmail.com</span>
+</ReactTooltip>
                     <div className="footer__modal__close" onClick={this.closeModal}><FontAwesomeIcon icon={faTimes} /></div>
                 </div>
                 <div className="footer__modal__info--github">

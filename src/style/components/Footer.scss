@@ -47,7 +47,7 @@ footer {
             transform: scale(1.2);
             box-shadow: 0px 0px 10px 12px rgba(0,0,0,0.75);
         }
-        & >p {
+        & >p, a {
             line-height: 150px;
             margin: 0;
             transform: rotate(-45deg);
@@ -69,9 +69,9 @@ footer {
         font-size: 20px;
         z-index: 9999;
         svg {
-            transform: rotate(-45deg);
             vertical-align: 0em;
             transition: transform .3s ease-in-out;
+            transform: rotate(-45deg);
             &:hover {
                 transform: rotate(360deg);
             }
@@ -87,4 +87,17 @@ footer {
     background-image: linear-gradient(to right,#9bf3ff, #d3faff);
 }
 
+.rotateTooltip {
+    position: absolute !important;
+    left: 50% !important;
+    top: 100% !important;
+    transform: translate(0%, -50%) rotate(-45deg) !important;
+    margin: 0 !important;
+    background: black!important;
+   }
 
+   .__react_component_tooltip.type-error.place-top:after {
+    border-top-color: none;
+    border-top-style: none;
+    border-top-width: none;
+}
