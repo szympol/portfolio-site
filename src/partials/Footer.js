@@ -50,7 +50,7 @@ class Footer extends React.Component {
       render() {
         return (
           <footer>
-            <button onClick={this.openModal}>Open Modal</button>
+            <div className="footer__contactMe" onClick={this.openModal}>Contact me</div>
             <Modal
               isOpen={this.state.modalIsOpen}
               onRequestClose={this.closeModal}

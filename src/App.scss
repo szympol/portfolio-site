@@ -61,21 +61,22 @@ section {
     position: relative;
     margin-top: 0px;
     margin-bottom: 100px;
+    @include breakpoint('xs') {
+      font-size: 2em;
+      margin-bottom: 60px;
+    }
 
     &::after {
       content: "";
       position:absolute;
-/*       top: -38px;
-      left: -5px;
-      border-style: solid;
-      border-width: 76px 0 76px 350px;
-      border-color: transparent transparent transparent rgba(0, 0, 0, 0.1); */
-
       top: -20px;
       left: 0;
       border-style: solid;
       border-width: 150px 150px 0 150px;
       border-color: rgba(0, 0, 0, 0.1) transparent transparent transparent;
+      @include breakpoint('xs') {
+        border-width: 100px 100px 0 100px;
+      }
     }
   }
 }

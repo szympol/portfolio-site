@@ -24,7 +24,7 @@ const Technologies = () => {
             
             <div className="container technology">
             <h2>Technology</h2>
-                <div className="row">
+                <div className="row technology--hideScrollbar">
                     <div className="col-xs-6 col-sm-6 col-md-4 col-lg-2 technology__icons"><img src={html5} alt="html5"></img></div>
                     <div className="col-xs-6 col-sm-6 col-md-4 col-lg-2 technology__icons"><img src={css3} alt="css3"></img></div>
                     <div className="col-xs-6 col-sm-6 col-md-4 col-lg-2 technology__icons"><img src={rwd} alt="rwd"></img></div>

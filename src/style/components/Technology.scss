@@ -6,13 +6,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    &--hideScrollbar {
+        overflow: hidden;
+    }
 }
 
 
 .technology__icons {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 0;
+    padding: 25px 0;
     justify-content: center;
     justify-items: center;
     cursor: pointer;
