@@ -52,7 +52,7 @@ class Navigation extends React.Component {
 
 		return (
 
-        <div>
+        <React.Fragment>
             <nav className="nav" onChange={this.getWindowInnerWidth}>
             `{isDesktopOrLaptop ? menuItemsDesktopOrLaptop : menuItemsTabletOrMobile}`
             </nav>
@@ -62,7 +62,7 @@ class Navigation extends React.Component {
                 <span className="hamburger__patty"></span>
                 <span className="hamburger__patty"></span>
             </div>
-        </div>
+        </React.Fragment>
 
 		);
     }

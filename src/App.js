@@ -35,7 +35,11 @@ class App extends React.Component {
         <MediaQuery minWidth={992}>
           <React.Fragment>
             <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
-            <Hero/>
+            <Hero strings={[
+    	'Junior Front-End Developer',
+      'Junior React&#39;s propagator',
+      'Junior developer with passion'
+    ]}/>
             <About/>
             <PortfolioBox/>
             <Technologies/>
@@ -46,7 +50,11 @@ class App extends React.Component {
         </MediaQuery>
         <MediaQuery  maxWidth={991}>
           <Navigation/>
-          <Hero/>
+          <Hero strings={[
+    	'Junior Front-End Developer',
+      'Junior React&#39;s propagator',
+      'Junior developer with passion'
+    ]}/>
           <About/>
           <PortfolioBox/>
           <Technologies/>
