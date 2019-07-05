@@ -3,10 +3,12 @@ import './App.scss';
 import ReactPageScroller from "react-page-scroller";
 import MediaQuery from 'react-responsive';
 
+import data from './data/data.json';
 
 import Hero from "./partials/Hero";
 import About from "./partials/About";
 import PortfolioBox from "./partials/PortfolioBox";
+import PortfolioCards from "./partials/PortfolioCards";
 import Technologies from "./partials/Technologies";
 import Navigation from "./partials/Navigation";
 import Footer from "./partials/Footer";
@@ -14,7 +16,11 @@ import Footer from "./partials/Footer";
 class App extends React.Component {
   constructor(props) {
       super(props);
-      this.state = {currentPage: 1, componentsToRenderLength: 4};
+      this.state = {
+        currentPage: 1,
+        componentsToRenderLength: 4,
+        data: data
+      };
       this._pageScroller = null;
   }
 
@@ -27,7 +33,6 @@ class App extends React.Component {
     this._pageScroller.goToPage(eventKey);
 };
 
-
   render() {
 
     return (
@@ -36,12 +41,24 @@ class App extends React.Component {
           <React.Fragment>
             <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
             <Hero strings={[
-    	'Junior Front-End Developer',
-      'Junior React&#39;s propagator',
-      'Junior developer with passion'
-    ]}/>
+              'Junior Front-End Developer',
+              'Junior React&#39;s propagator',
+              'Junior developer with passion'
+            ]}/>
             <About/>
-            <PortfolioBox/>
+              <PortfolioBox>
+            {this.state.data.map(data => (
+            <PortfolioCards
+            key={data.id}
+            id={data.id}
+            img={data.img}
+            alt={data.alt}
+            title={data.title}
+            desc={data.desc}
+            button={data.button}
+            />
+            ))}
+            </PortfolioBox>
             <Technologies/>
             </ReactPageScroller>
             <Navigation goToPage={this.goToPage}/>
@@ -56,7 +73,19 @@ class App extends React.Component {
       'Junior developer with passion'
     ]}/>
           <About/>
-          <PortfolioBox/>
+          <PortfolioBox>
+            {this.state.data.map(data => (
+                  <PortfolioCards 
+                  key={data.id}
+                  id={data.id}
+                  img={data.img}
+                  alt={data.alt}
+                  title={data.title}
+                  desc={data.desc}
+                  button={data.button}
+                  />
+                ))}
+            </PortfolioBox>
           <Technologies/>
           <Footer/>
         </MediaQuery>

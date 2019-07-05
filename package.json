@@ -12,6 +12,7 @@
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-animate-on-scroll": "^2.1.5",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.8.6",
     "react-modal": "^3.8.1",
     "react-page-scroller": "^1.5.1",
@@ -21,6 +22,7 @@
     "react-scroll-parallax": "^2.1.2",
     "react-switch-lang": "^1.0.2",
     "react-tooltip": "^3.10.0",
+    "simplebar-react": "^1.1.0",
     "typed.js": "^2.0.10"
   },
   "scripts": {
