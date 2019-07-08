@@ -49,7 +49,7 @@
         "img": "https://github.com/szympol/16.5._Fetch-API/blob/master/images/main.JPG?raw=true",
         "alt": "Quotes generator linked with Twitter",
         "title": "Quotes generator linked with Twitter",
-        "desc": "Generate random quote with 140 characters limit for the purpose of uploading the quote on Twitter.",
+        "desc": "Generate random quote for the purpose of uploading the quote on Twitter.",
         "demo": "https://szympol.github.io/16.5._Fetch-API/",
         "github": "https://github.com/szympol/16.5._Fetch-API"
     },
@@ -112,7 +112,7 @@
         "img": "https://github.com/szympol/26._ChatApp/blob/master/images/main.JPG?raw=true",
         "alt": "ChatApp",
         "title": "ChatApp",
-        "desc": "Simple Chat application",
+        "desc": "Simple Chat application. Join the room and start sharing your thoughts.",
         "demo": "",
         "github": "https://github.com/szympol/26._ChatApp"
     },
@@ -139,7 +139,7 @@
         "img": "https://github.com/szympol/solo-project-1/blob/master/images/banbury.JPG?raw=true",
         "alt": "BMF Fabric site",
         "title": "BMF - Fabric Site",
-        "desc": "My first commercial site with form based on Bootstrap 3",
+        "desc": "My first commercial site with form based on Bootstrap 3.",
         "demo": "https://www.banburymodernfurniture.co.uk/bmf/fabric/fabric-page/index",
         "github": ""
     }

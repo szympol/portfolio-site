@@ -3,7 +3,7 @@ import './App.scss';
 import ReactPageScroller from "react-page-scroller";
 import MediaQuery from 'react-responsive';
 
-import data from './data/data.json';
+import projectsDataEn from './data/projectsDataEn.json';
 /* import data2 from './data/data2.json'; */
 
 import Hero from "./partials/Hero";
@@ -19,7 +19,7 @@ class App extends React.Component {
       this.state = {
         currentPage: 1,
         componentsToRenderLength: 4,
-        data: data
+        projectsData: projectsDataEn
       };
       this._pageScroller = null;
   }
@@ -35,12 +35,12 @@ class App extends React.Component {
 
 /*   dataToggleTest = () => {
     console.log('test1');
-    this.setState({data: data2});
+    this.setState({projectsData: data2});
   }
 
   dataToggleTest2 = () => {
     console.log('test2');
-    this.setState({data: data});
+    this.setState({projectsData: projectsDataEn});
   } */
 
   render() {
@@ -58,7 +58,7 @@ class App extends React.Component {
               'Junior developer with passion'
             ]}/>
             <About/>
-            <PortfolioBox data={this.state.data}/>
+            <PortfolioBox projectsData={this.state.projectsData}/>
             <Technologies/>
             </ReactPageScroller>
             <Navigation goToPage={this.goToPage}/>
@@ -73,7 +73,7 @@ class App extends React.Component {
       'Junior developer with passion'
     ]}/>
           <About/>
-          <PortfolioBox data={this.state.data}/>
+          <PortfolioBox projectsData={this.state.projectsData}/>
           <Technologies/>
           <Footer/>
         </MediaQuery>

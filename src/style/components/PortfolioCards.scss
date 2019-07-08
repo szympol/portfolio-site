@@ -1,13 +1,26 @@
 .portfolio__card {
-    height: 250px;
+    height: auto;
     width: 200px;
     margin: 15px;
-    border: 1px solid black;
     img {
         height: 150px;
         width: 100%;
+        border: 1px solid transparent;
     }
     .portfolio__text {
-
+        border: 2px solid $main-color;
+        margin-top: -3px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h4 {
+            margin: 5px;
+            text-align: center;
+        }
+        p {
+            margin: 5px;
+            font-size: .875em;
+        }
     }
 }

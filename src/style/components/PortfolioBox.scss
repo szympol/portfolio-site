@@ -1,5 +1,6 @@
 .portfolio__box {
     overflow: auto;
+    background: lighten($third-background, 3%);
 
     &::-webkit-scrollbar-track {
         background: $main-background;
@@ -20,5 +21,35 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+}
+
+.portfolio__filter {
+    width: 100%;
+    .portfolio__filter__list {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        li {
+            margin: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            position: relative;
+            &:hover {
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    bottom: -10px;
+                    left: 0;
+                    right: 0;
+                    height: 4px;
+                    background: white;
+                }
+            }
+        }
     }
 }

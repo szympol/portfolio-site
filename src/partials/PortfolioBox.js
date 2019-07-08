@@ -7,14 +7,14 @@ class PortfolioBox extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-          data: this.props.data
+            projectsData: this.props.projectsData
         };
     }
     componentDidUpdate(prevProps) {
-        console.log(prevProps.data[0].desc)
-        if ( prevProps.data[0].desc !==  this.props.data[0].desc) {
+        console.log(prevProps.projectsData[0].desc)
+        if ( prevProps.projectsData[0].desc !==  this.props.projectsData[0].desc) {
             this.setState({
-                data: this.props.data
+                projectsData: this.props.projectsData
               })
         }
     }
@@ -22,7 +22,7 @@ class PortfolioBox extends React.Component {
     filterPortfolio = (e) => {
       console.log(e.target.value);
        this.setState({
-        data: this.state.data.filter(card => card.id !== 1)
+        projectsData: this.state.projectsData.filter(card => card.id !== 1)
       });
     }
 
@@ -32,10 +32,21 @@ class PortfolioBox extends React.Component {
         <section className="component" id="portfolio">
             <div className="container portfolio">
                 <h1>Portfolio</h1>
-                <button onClick={(e) => this.filterPortfolio(e)} value="all">test</button>
+                <div className="portfolio__filter">
+                    <ul className="portfolio__filter__list">
+                        <li data-filter="all" onClick={(e) => this.filterPortfolio(e)} value="all">All</li>
+                        <li data-filter="react" onClick={(e) => this.filterPortfolio(e)} value="react">React</li>
+                        <li data-filter="layout" onClick={(e) => this.filterPortfolio(e)} value="layout">Layout</li>
+                        <li data-filter="api" onClick={(e) => this.filterPortfolio(e)} value="api">API</li>
+                        <li data-filter="vanillajs" onClick={(e) => this.filterPortfolio(e)} value="vanillajs">VanillaJS</li>
+                        <li data-filter="game" onClick={(e) => this.filterPortfolio(e)} value="game">Game</li>
+                        <li data-filter="node" onClick={(e) => this.filterPortfolio(e)} value="node">Node</li>
+                        <li data-filter="vue" onClick={(e) => this.filterPortfolio(e)} value="vue">Vue</li>
+                    </ul>
+                </div>
                   <div className="portfolio__box" onScroll={(e) => e.stopPropagation()} onWheel={(e) => e.stopPropagation()}>
                     <main className="portfolio__content row">
-                    {this.state.data.map(data => (
+                    {this.state.projectsData.map(data => (
                         <PortfolioCards
                         key={data.id}
                         id={data.id}
