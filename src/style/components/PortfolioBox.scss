@@ -5,7 +5,7 @@
     &::-webkit-scrollbar-track {
         background: $main-background;
         border: 4px solid transparent;
-        background-clip: content-box;   /* THIS IS IMPORTANT */
+        background-clip: content-box;
     }
 
     &::-webkit-scrollbar {
@@ -27,27 +27,42 @@
 
 .portfolio__filter {
     width: 100%;
+    z-index: 1;
     .portfolio__filter__list {
         list-style-type: none;
         padding: 0;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        li {
+        .portfolio__filter__list__element {
             margin: 10px;
             cursor: pointer;
             text-decoration: none;
             position: relative;
+            min-width: 30px;
+            text-align: center;
             &:hover {
-                &:before {
-                    content: '';
-                    position: absolute;
-                    width: 100%;
-                    bottom: -10px;
-                    left: 0;
-                    right: 0;
-                    height: 4px;
-                    background: white;
+                 &::before {
+                    content: "";
+                    position:absolute;
+                    top: 0px;
+                    left: -15px;
+                    border-style: solid;
+                    border-width: 30px 30px 0 30px;
+                    border-color: $main-color transparent transparent transparent;
+                    z-index: -1;
+                }
+            }
+            &--active {
+                &::before {
+                    content: "";
+                    position:absolute;
+                    top: 0px;
+                    left: -15px;
+                    border-style: solid;
+                    border-width: 30px 30px 0 30px;
+                    border-color: $main-color transparent transparent transparent;
+                    z-index: -1;
                 }
             }
         }

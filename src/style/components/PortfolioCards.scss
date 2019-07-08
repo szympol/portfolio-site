@@ -8,9 +8,13 @@
         border: 1px solid transparent;
     }
     .portfolio__text {
-        border: 2px solid $main-color;
-        margin-top: -3px;
-        height: 120px;
+        background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%), linear-gradient(black 33%, rgba(255,255,255,0) 0%), linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%), linear-gradient(black 33%, rgba(255,255,255,0) 0%);
+        // background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 0%), linear-gradient( rgba(255,255,255,0) 50%, white 0%), linear-gradient(to right, rgba(255,255,255,0) 50%, white 0%), linear-gradient( rgba(255,255,255,0) 50%, white 0%);
+        background-position: top, right, bottom, left;
+        background-repeat: repeat-x, repeat-y;
+        background-size: 10px 1px, 1px 10px;
+        margin-top: -5px;
+        height: 100px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;

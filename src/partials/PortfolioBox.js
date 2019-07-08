@@ -7,23 +7,30 @@ class PortfolioBox extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            projectsData: this.props.projectsData
+            projectsData: this.props.projectsData,
+            filteredProjects: this.props.projectsData
         };
     }
     componentDidUpdate(prevProps) {
         console.log(prevProps.projectsData[0].desc)
         if ( prevProps.projectsData[0].desc !==  this.props.projectsData[0].desc) {
             this.setState({
-                projectsData: this.props.projectsData
+                projectsData: this.props.projectsData,
+                filteredProjects: this.props.projectsData
               })
         }
     }
 
     filterPortfolio = (e) => {
-      console.log(e.target.value);
-       this.setState({
-        projectsData: this.state.projectsData.filter(card => card.id !== 1)
-      });
+        const portfolioFilterListElements = document.querySelectorAll('.portfolio__filter__list__element');
+        const filterValue = e.target.getAttribute('data-filter');
+
+        portfolioFilterListElements.forEach(element => element.classList.remove('portfolio__filter__list__element--active'));
+        e.target.classList.add('portfolio__filter__list__element--active');
+
+        this.setState({
+            filteredProjects: this.state.projectsData.filter(card => card.type.includes(`${filterValue}`))
+        });
     }
 
     render() {
@@ -34,19 +41,19 @@ class PortfolioBox extends React.Component {
                 <h1>Portfolio</h1>
                 <div className="portfolio__filter">
                     <ul className="portfolio__filter__list">
-                        <li data-filter="all" onClick={(e) => this.filterPortfolio(e)} value="all">All</li>
-                        <li data-filter="react" onClick={(e) => this.filterPortfolio(e)} value="react">React</li>
-                        <li data-filter="layout" onClick={(e) => this.filterPortfolio(e)} value="layout">Layout</li>
-                        <li data-filter="api" onClick={(e) => this.filterPortfolio(e)} value="api">API</li>
-                        <li data-filter="vanillajs" onClick={(e) => this.filterPortfolio(e)} value="vanillajs">VanillaJS</li>
-                        <li data-filter="game" onClick={(e) => this.filterPortfolio(e)} value="game">Game</li>
-                        <li data-filter="node" onClick={(e) => this.filterPortfolio(e)} value="node">Node</li>
-                        <li data-filter="vue" onClick={(e) => this.filterPortfolio(e)} value="vue">Vue</li>
+                        <li className="portfolio__filter__list__element portfolio__filter__list__element--active" data-filter="all" onClick={(e) => this.filterPortfolio(e)}>All</li>
+                        <li className="portfolio__filter__list__element" data-filter="react" onClick={(e) => this.filterPortfolio(e)}>React</li>
+                        <li className="portfolio__filter__list__element" data-filter="layout" onClick={(e) => this.filterPortfolio(e)}>Layout</li>
+                        <li className="portfolio__filter__list__element" data-filter="api" onClick={(e) => this.filterPortfolio(e)}>API</li>
+                        <li className="portfolio__filter__list__element" data-filter="vanillajs" onClick={(e) => this.filterPortfolio(e)}>VanillaJS</li>
+                        <li className="portfolio__filter__list__element" data-filter="game" onClick={(e) => this.filterPortfolio(e)}>Game</li>
+                        <li className="portfolio__filter__list__element" data-filter="node" onClick={(e) => this.filterPortfolio(e)}>Node</li>
+                        <li className="portfolio__filter__list__element" data-filter="vue" onClick={(e) => this.filterPortfolio(e)}>Vue</li>
                     </ul>
                 </div>
                   <div className="portfolio__box" onScroll={(e) => e.stopPropagation()} onWheel={(e) => e.stopPropagation()}>
                     <main className="portfolio__content row">
-                    {this.state.projectsData.map(data => (
+                    {this.state.filteredProjects.map(data => (
                         <PortfolioCards
                         key={data.id}
                         id={data.id}
@@ -54,7 +61,9 @@ class PortfolioBox extends React.Component {
                         alt={data.alt}
                         title={data.title}
                         desc={data.desc}
-                        button={data.button}
+                        demo={data.demo}
+                        github={data.github}
+                        type={data.type}
                         />
                         ))}
                     </main>
@@ -65,23 +74,5 @@ class PortfolioBox extends React.Component {
     }
   }
 
-
-
-/* const PortfolioBox = (props) => {
-
-    return (
-        <section className="component" id="portfolio">
-            <div className="container portfolio">
-                <h1>Portfolio</h1>
-                <button onClick={() => this.props.filterPortfolio('heh')}>test</button>
-                  <div className="portfolio__box" onScroll={(e) => e.stopPropagation()} onWheel={(e) => e.stopPropagation()}>
-                    <main className="portfolio__content row">
-                            {props.children}
-                    </main>
-                </div>
-            </div>
-        </section>
-    )
-} */
 
 export default PortfolioBox;
