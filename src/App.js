@@ -4,11 +4,11 @@ import ReactPageScroller from "react-page-scroller";
 import MediaQuery from 'react-responsive';
 
 import data from './data/data.json';
+/* import data2 from './data/data2.json'; */
 
 import Hero from "./partials/Hero";
 import About from "./partials/About";
 import PortfolioBox from "./partials/PortfolioBox";
-import PortfolioCards from "./partials/PortfolioCards";
 import Technologies from "./partials/Technologies";
 import Navigation from "./partials/Navigation";
 import Footer from "./partials/Footer";
@@ -31,12 +31,24 @@ class App extends React.Component {
   goToPage = (eventKey) => {
     console.log(eventKey);
     this._pageScroller.goToPage(eventKey);
-};
+  };
+
+/*   dataToggleTest = () => {
+    console.log('test1');
+    this.setState({data: data2});
+  }
+
+  dataToggleTest2 = () => {
+    console.log('test2');
+    this.setState({data: data});
+  } */
 
   render() {
 
     return (
       <div className="wrapper">
+{/*         <div onClick={this.dataToggleTest}>TEST</div>
+            <div onClick={this.dataToggleTest2}>Get back</div> */}
         <MediaQuery minWidth={992}>
           <React.Fragment>
             <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
@@ -46,19 +58,7 @@ class App extends React.Component {
               'Junior developer with passion'
             ]}/>
             <About/>
-              <PortfolioBox>
-            {this.state.data.map(data => (
-            <PortfolioCards
-            key={data.id}
-            id={data.id}
-            img={data.img}
-            alt={data.alt}
-            title={data.title}
-            desc={data.desc}
-            button={data.button}
-            />
-            ))}
-            </PortfolioBox>
+            <PortfolioBox data={this.state.data}/>
             <Technologies/>
             </ReactPageScroller>
             <Navigation goToPage={this.goToPage}/>
@@ -73,19 +73,7 @@ class App extends React.Component {
       'Junior developer with passion'
     ]}/>
           <About/>
-          <PortfolioBox>
-            {this.state.data.map(data => (
-                  <PortfolioCards 
-                  key={data.id}
-                  id={data.id}
-                  img={data.img}
-                  alt={data.alt}
-                  title={data.title}
-                  desc={data.desc}
-                  button={data.button}
-                  />
-                ))}
-            </PortfolioBox>
+          <PortfolioBox data={this.state.data}/>
           <Technologies/>
           <Footer/>
         </MediaQuery>
