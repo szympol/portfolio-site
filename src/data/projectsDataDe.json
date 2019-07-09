@@ -1,0 +1,183 @@
+[
+    {
+        "id": 1,
+        "img": "https://github.com/szympol/slicing-golden/blob/master/images/main.JPG?raw=true",
+        "alt": "Slicing Golden Theme",
+        "title": "Slicing Golden Theme",
+        "desc": "Sehenwuerdigkeiten",
+        "demo": "https://szympol.github.io/slicing-golden/",
+        "github": "https://github.com/szympol/slicing-golden",
+        "type": "layout, all"
+    },
+    {
+        "id": 2,
+        "img": "https://github.com/szympol/solo-project-1/blob/master/images/dashboard.JPG?raw=true",
+        "alt": "Dashboard slicing",
+        "title": "Dashboard slicing",
+        "desc": "Sehenwuerdigkeiten",
+        "demo": "https://szympol.github.io/solo-project-1/",
+        "github": "https://github.com/szympol/solo-project-1",
+        "type": "layout, all"
+    },
+    {
+        "id": 3,
+        "img": "https://github.com/szympol/rockPaperScissors/blob/master/images/main.JPG?raw=true",
+        "alt": "Rock-Paper-Scissors Game",
+        "title": "Rock-Paper-Scissors Game",
+        "desc": "Sehenwuerdigkeiten",
+        "demo": "https://szympol.github.io/rockPaperScissors/",
+        "github": "https://github.com/szympol/rockPaperScissors",
+        "type": "vanillajs, game, all"
+    },
+    {
+        "id": 4,
+        "img": "https://github.com/szympol/14.-Using-JS-plugins/blob/master/images/mainP.jpg?raw=true",
+        "alt": "Spot the highest mountains in the world",
+        "title": "Spot the highest mountains in the world",
+        "desc": "Sehenwuerdigkeiten",
+        "demo": "https://szympol.github.io/14.-Using-JS-plugins/",
+        "github": "https://github.com/szympol/14.-Using-JS-plugins",
+        "type": "api, all"
+    },
+    {
+        "id": 5,
+        "img": "https://github.com/szympol/15.6._Trello-kanban-/blob/master/images/mainP.jpg?raw=true",
+        "alt": "Kanban board",
+        "title": "Kanban board - OOP in Vanilla JS",
+        "desc": "Sehenwuerdigkeiten",
+        "demo": "https://szympol.github.io/15.6._Trello-kanban-/",
+        "github": "https://github.com/szympol/15.6._Trello-kanban-",
+        "type": "vanillajs, api, all"
+    },
+    {
+        "id": 6,
+        "img": "https://github.com/szympol/16.5._Fetch-API/blob/master/images/main.JPG?raw=true",
+        "alt": "Quotes generator linked with Twitter",
+        "title": "Quotes generator linked with Twitter",
+        "desc": "Sehenwuerdigkeiten",
+        "demo": "https://szympol.github.io/16.5._Fetch-API/",
+        "github": "https://github.com/szympol/16.5._Fetch-API",
+        "type": "api, all"
+    },
+    {
+        "id": 7,
+        "img": "https://github.com/szympol/16.6_Country_Search_Engine/blob/master/images/main.JPG?raw=true",
+        "alt": "Fetch API - Country Search Engine",
+        "title": "Fetch API - Country Search Engine",
+        "desc": "Find out about basic information of all countries in the world.",
+        "demo": "https://szympol.github.io/16.6_Country_Search_Engine/",
+        "github": "https://github.com/szympol/16.6_Country_Search_Engine",
+        "type": "api, all"
+    },
+    {
+        "id": 8,
+        "img": "https://github.com/szympol/16.8_Landing_page/blob/master/main.JPG?raw=true",
+        "alt": "Awax landing page slicing",
+        "title": "Awax landing page slicing",
+        "desc": "Slicing a website from PSD to fully Responsive Website with JS code.",
+        "demo": "https://szympol.github.io/16.8_Landing_page/",
+        "github": "https://github.com/szympol/16.8_Landing_page",
+        "type": "layout, api, all"
+    },
+    {
+        "id": 9,
+        "img": "https://github.com/szympol/19.5_Refactoring_Gif-Searcher/blob/master/images/main.JPG?raw=true",
+        "alt": "Gif Searcher",
+        "title": "Gif Searcher",
+        "desc": "Search and find a suitable gif. Dynamic gif search engine.",
+        "demo": "https://szympol.github.io/19.5_Refactoring_Gif-Searcher/",
+        "github": "https://github.com/szympol/19.5_Refactoring_Gif-Searcher",
+        "type": "react, api, all"
+    },
+    {
+        "id": 10,
+        "img": "https://github.com/szympol/19.7_Stopwatch_ReactJS/blob/master/images/main.JPG?raw=true",
+        "alt": "Stopwatch in ReactJS",
+        "title": "Stopwatch in ReactJS",
+        "desc": "Simple stopwatch app. Count time and record intervals.",
+        "demo": "https://szympol.github.io/19.7_Stopwatch_ReactJS/",
+        "github": "https://github.com/szympol/19.7_Stopwatch_ReactJS",
+        "type": "react, game, all"
+    },
+    {
+        "id": 11,
+        "img": "https://github.com/szympol/19.9_Github_User_Search/blob/master/images/main.JPG?raw=true",
+        "alt": "GitHub User Search",
+        "title": "GitHub User Search",
+        "desc": "Search GitHub users by their nicknames.",
+        "demo": "https://szympol.github.io/19.9_Github_User_Search/",
+        "github": "https://github.com/szympol/19.9_Github_User_Search",
+        "type": "api, react, all"
+    },
+    {
+        "id": 12,
+        "img": "https://github.com/szympol/25.7_Authenticate_applications_using_Google/blob/master/images/main.JPG?raw=true",
+        "alt": "Authenticate applications using Google",
+        "title": "Authenticate applications using Google",
+        "desc": "Space travel login app with Google authorization",
+        "demo": "",
+        "github": "https://github.com/szympol/25.7_Authenticate_applications_using_Google",
+        "type": "node, api, all"
+    },
+    {
+        "id": 13,
+        "img": "https://github.com/szympol/26._ChatApp/blob/master/images/main.JPG?raw=true",
+        "alt": "ChatApp",
+        "title": "ChatApp",
+        "desc": "Simple Chat app. Join the room and start sharing your thoughts.",
+        "demo": "",
+        "github": "https://github.com/szympol/26._ChatApp",
+        "type": "react, node, all"
+    },
+    {
+        "id": 14,
+        "img": "https://github.com/szympol/28_React_Router_CountriesList/blob/master/images/main.JPG?raw=true",
+        "alt": "React Router CountriesList",
+        "title": "React Router CountriesList",
+        "desc": "Countries List app in SPA architecture.",
+        "demo": "https://frosty-colden-f63461.netlify.com/#/",
+        "github": "https://github.com/szympol/28_React_Router_CountriesList",
+        "type": "react, all"
+    },
+    {
+        "id": 15,
+        "img": "https://github.com/szympol/35.6_React_component_tests/blob/master/images/main.JPG?raw=true",
+        "alt": "Scorekeeper Board",
+        "title": "Scorekeeper Board",
+        "desc": "Scorekeeper App! Never look for a piece of paper again!",
+        "demo": "https://brave-joliot-a88cbb.netlify.com/",
+        "github": "https://github.com/szympol/35.6_React_component_tests",
+        "type": "react, all"
+    },
+    {
+        "id": 16,
+        "img": "https://github.com/szympol/solo-project-1/blob/master/images/banbury.JPG?raw=true",
+        "alt": "BMF Fabric site",
+        "title": "BMF - Fabric Site",
+        "desc": "My first commercial site with form based on Bootstrap 3.",
+        "demo": "https://www.banburymodernfurniture.co.uk/bmf/fabric/fabric-page/index",
+        "github": "",
+        "type": "layout, all"
+    }
+    ,
+    {
+        "id": 17,
+        "img": "https://cl.ly/457717c53781/tenor.gif",
+        "alt": "Cinema seat picker",
+        "title": "Cinema seat picker",
+        "desc": "Pick your seat and make a reservation.",
+        "demo": "",
+        "github": "https://github.com/szympol/warsawjs-workshop-33-seatpick",
+        "type": "vue, all"
+    },
+    {
+        "id": 18,
+        "img": "https://via.placeholder.com/150x200?text=Portfolio",
+        "alt": "Portfolio site",
+        "title": "Portfolio site",
+        "desc": "Portfolio site",
+        "demo": "",
+        "github": "https://github.com/szympol/portfolio-site",
+        "type": "react, layout, all"
+    }
+]

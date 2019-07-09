@@ -4,7 +4,7 @@ import ReactPageScroller from "react-page-scroller";
 import MediaQuery from 'react-responsive';
 
 import projectsDataEn from './data/projectsDataEn.json';
-/* import data2 from './data/data2.json'; */
+import projectsDataDe from './data/projectsDataDe.json';
 
 import Hero from "./partials/Hero";
 import About from "./partials/About";
@@ -33,21 +33,21 @@ class App extends React.Component {
     this._pageScroller.goToPage(eventKey);
   };
 
-/*   dataToggleTest = () => {
+dataToggleTest = () => {
     console.log('test1');
-    this.setState({projectsData: data2});
+    this.setState({projectsData: projectsDataDe});
   }
 
   dataToggleTest2 = () => {
     console.log('test2');
     this.setState({projectsData: projectsDataEn});
-  } */
+  }
 
   render() {
 
     return (
       <div className="wrapper">
-{/*         <div onClick={this.dataToggleTest}>TEST</div>
+{/*       <div onClick={this.dataToggleTest}>TEST</div>
             <div onClick={this.dataToggleTest2}>Get back</div> */}
         <MediaQuery minWidth={992}>
           <React.Fragment>

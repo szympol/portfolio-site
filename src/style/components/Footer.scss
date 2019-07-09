@@ -81,10 +81,12 @@ footer {
             transition: color .2s ease-in-out;
             svg {
                 transform: rotate(-45deg);
+                color: $footer-icon-color;
+                &:hover {
+                    color: $footer-icon-onHover-color;
+                }
             }
-            &:hover {
-                color: $main-color;
-            }
+            
         }
     }
 }
@@ -95,11 +97,12 @@ footer {
         position: absolute;
         top: 0;
         left:0;
-        background:black;
+        background:$footer-icon-color;
         width:20px;
         height: 20px;
         font-size: 20px;
         z-index: 9999;
+        border: 0px solid transparent;
         cursor: pointer;
         svg {
             vertical-align: 0em;
@@ -133,7 +136,7 @@ footer {
     top: 100% !important;
     transform: translate(0%, -50%) rotate(-45deg) !important;
     margin: 0 !important;
-    background: black!important;
+    background: $second-color!important;
    }
 
 .__react_component_tooltip.type-dark.place-top:after {
