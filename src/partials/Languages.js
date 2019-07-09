@@ -1,15 +1,14 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faMobileAlt } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faAt } from '@fortawesome/free-solid-svg-icons';
+import uk from '../images/united-kingdom.png';
+import germany from '../images/germany.png';
+import poland from '../images/poland.png';
 
 
 class Languages extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            currentLanguage: uk
         };
       }
 
@@ -17,27 +16,32 @@ class Languages extends React.Component {
         const languages = document.querySelector('.languages');
         languages.classList.toggle('active');
     }
+    updateCurrentLanguageFlag = (e) => {
+        const clickedLanguage = e.target.getAttribute('src');
+        this.setState({currentLanguage: clickedLanguage});
+        this.showLanguages();
+    }
 
     render() {
       return (
         <div className="languages">
             <div className="languages__flag trigger" onClick={this.showLanguages}>
-                <FontAwesomeIcon className="fa" icon={faAt} />
+                <img src={this.state.currentLanguage} alt="uk" className="languages__flag__icon"/>
             </div>
             <div className="languages__flags">
                 <div className="languages__rotater">
-                    <div className="languages__flag languages__flag--show">
-                        <FontAwesomeIcon className="fa" icon={faGithub} />
+                    <div className="languages__flag languages__flag--show" onClick={(e) => this.updateCurrentLanguageFlag(e)}>
+                        <img src={uk} alt="uk" className="languages__flag__icon"/>
                     </div>
                 </div>
                 <div className="languages__rotater">
-                    <div className="languages__flag languages__flag--show">
-                        <FontAwesomeIcon className="fa" icon={faMobileAlt} />
+                    <div className="languages__flag languages__flag--show" onClick={(e) => this.updateCurrentLanguageFlag(e)}>
+                        <img src={germany} alt="uk" className="languages__flag__icon"/>
                     </div>
                 </div>
                 <div className="languages__rotater">
-                    <div className="languages__flag languages__flag--show">
-                        <FontAwesomeIcon className="fa" icon={faLinkedin} />
+                    <div className="languages__flag languages__flag--show"  onClick={(e) => this.updateCurrentLanguageFlag(e)}>
+                        <img src={poland} alt="uk" className="languages__flag__icon"/>
                     </div>
                 </div>
             </div>
