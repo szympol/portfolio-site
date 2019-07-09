@@ -36,12 +36,12 @@ class Languages extends React.Component {
                 </div>
                 <div className="languages__rotater">
                     <div className="languages__flag languages__flag--show" onClick={(e) => this.updateCurrentLanguageFlag(e)}>
-                        <img src={germany} alt="uk" className="languages__flag__icon"/>
+                        <img src={germany} alt="germany" className="languages__flag__icon"/>
                     </div>
                 </div>
                 <div className="languages__rotater">
-                    <div className="languages__flag languages__flag--show"  onClick={(e) => this.updateCurrentLanguageFlag(e)}>
-                        <img src={poland} alt="uk" className="languages__flag__icon"/>
+                    <div className="languages__flag languages__flag--show" onClick={(e) => this.updateCurrentLanguageFlag(e)}>
+                        <img src={poland} alt="poland" className="languages__flag__icon"/>
                     </div>
                 </div>
             </div>

@@ -19,7 +19,6 @@ class App extends React.Component {
       super(props);
       this.state = {
         currentPage: 1,
-        componentsToRenderLength: 4,
         projectsData: projectsDataEn
       };
       this._pageScroller = null;
