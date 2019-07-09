@@ -11,6 +11,7 @@ import About from "./partials/About";
 import PortfolioBox from "./partials/PortfolioBox";
 import Technologies from "./partials/Technologies";
 import Navigation from "./partials/Navigation";
+import Languages from "./partials/Languages";
 import Footer from "./partials/Footer";
 
 class App extends React.Component {
@@ -62,6 +63,7 @@ dataToggleTest = () => {
             <Technologies/>
             </ReactPageScroller>
             <Navigation goToPage={this.goToPage}/>
+            <Languages/>
             <Footer/>
         </React.Fragment>
         </MediaQuery>
@@ -75,6 +77,7 @@ dataToggleTest = () => {
           <About/>
           <PortfolioBox projectsData={this.state.projectsData}/>
           <Technologies/>
+          <Languages/>
           <Footer/>
         </MediaQuery>
       </div>
