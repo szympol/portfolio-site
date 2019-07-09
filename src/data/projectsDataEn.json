@@ -159,4 +159,25 @@
         "github": "",
         "type": "layout, all"
     }
+    ,
+    {
+        "id": 17,
+        "img": "https://cl.ly/457717c53781/tenor.gif",
+        "alt": "Cinema seat picker",
+        "title": "Cinema seat picker",
+        "desc": "Pick your seat and make a reservation.",
+        "demo": "",
+        "github": "https://github.com/szympol/warsawjs-workshop-33-seatpick",
+        "type": "vue, all"
+    },
+    {
+        "id": 18,
+        "img": "https://via.placeholder.com/150x200?text=Portfolio",
+        "alt": "Portfolio site",
+        "title": "Portfolio site",
+        "desc": "Portfolio site",
+        "demo": "",
+        "github": "https://github.com/szympol/portfolio-site",
+        "type": "react, layout, all"
+    }
 ]

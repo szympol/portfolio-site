@@ -68,10 +68,10 @@ class App extends React.Component {
         <MediaQuery  maxWidth={991}>
           <Navigation/>
           <Hero strings={[
-    	'Junior Front-End Developer',
-      'Junior React&#39;s propagator',
-      'Junior developer with passion'
-    ]}/>
+            'Junior Front-End Developer',
+            'Junior React&#39;s propagator',
+            'Junior developer with passion'
+          ]}/>
           <About/>
           <PortfolioBox projectsData={this.state.projectsData}/>
           <Technologies/>
