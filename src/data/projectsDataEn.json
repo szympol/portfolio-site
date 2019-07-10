@@ -64,7 +64,7 @@
         "img": "https://github.com/szympol/16.6_Country_Search_Engine/blob/master/images/main.JPG?raw=true",
         "alt": "Fetch API - Country Search Engine",
         "title": "Fetch API - Country Search Engine",
-        "desc": "Find out about basic information of all countries in the world.",
+        "desc": "Find out basic information about all countries in the world.",
         "demo": "https://szympol.github.io/16.6_Country_Search_Engine/",
         "github": "https://github.com/szympol/16.6_Country_Search_Engine",
         "type": "api, all"

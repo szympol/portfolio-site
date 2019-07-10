@@ -34,7 +34,6 @@ class PortfolioBox extends React.Component {
     }
 
     render() {
-
       return (
         <section className="component" id="portfolio">
             <div className="container portfolio">
