@@ -4,7 +4,7 @@
         "img": "https://github.com/szympol/slicing-golden/blob/master/images/main.JPG?raw=true",
         "alt": "Slicing Golden Theme",
         "title": "Slicing Golden Theme",
-        "desc": "Aufteilen eine Website von PSD zu Responsive Website.",
+        "desc": "Aufteilung einer Website von PSD zu Responsive Website.",
         "demo": "https://szympol.github.io/slicing-golden/",
         "github": "https://github.com/szympol/slicing-golden",
         "type": "layout, all"
@@ -14,7 +14,7 @@
         "img": "https://github.com/szympol/solo-project-1/blob/master/images/dashboard.JPG?raw=true",
         "alt": "Dashboard slicing",
         "title": "Dashboard slicing",
-        "desc": "Aufteilen eine Übersichtsseite von PSD auf eine vollständig responsive Website.",
+        "desc": "Aufteilung einer Übersichtsseite von PSD auf eine vollständige responsive Website.",
         "demo": "https://szympol.github.io/solo-project-1/",
         "github": "https://github.com/szympol/solo-project-1",
         "type": "layout, all"
@@ -34,7 +34,7 @@
         "img": "https://github.com/szympol/14.-Using-JS-plugins/blob/master/images/mainP.jpg?raw=true",
         "alt": "Spot the highest mountains in the world",
         "title": "Spot the highest mountains in the world",
-        "desc": "Implemented carousel via Flickity connected to google map.",
+        "desc": "Karussell über Flickity in Verbindung mit Google Map implementiert.",
         "demo": "https://szympol.github.io/14.-Using-JS-plugins/",
         "github": "https://github.com/szympol/14.-Using-JS-plugins",
         "type": "api, all"
@@ -44,7 +44,7 @@
         "img": "https://github.com/szympol/15.6._Trello-kanban-/blob/master/images/mainP.jpg?raw=true",
         "alt": "Kanban board",
         "title": "Kanban board - OOP in Vanilla JS",
-        "desc": "Kanban board to manage tasks - OOP in Vanilla JS",
+        "desc": "Kanban-Tafel zur Aufgabenverwaltung - OOP in Vanilla JS",
         "demo": "https://szympol.github.io/15.6._Trello-kanban-/",
         "github": "https://github.com/szympol/15.6._Trello-kanban-",
         "type": "vanillajs, api, all"
@@ -54,7 +54,7 @@
         "img": "https://github.com/szympol/16.5._Fetch-API/blob/master/images/main.JPG?raw=true",
         "alt": "Quotes generator linked with Twitter",
         "title": "Quotes generator linked with Twitter",
-        "desc": "Generate and upload random quote on Twitter.",
+        "desc": "Generierung und Hochladung zufälligen Zitats auf Twitter.",
         "demo": "https://szympol.github.io/16.5._Fetch-API/",
         "github": "https://github.com/szympol/16.5._Fetch-API",
         "type": "api, all"
@@ -64,7 +64,7 @@
         "img": "https://github.com/szympol/16.6_Country_Search_Engine/blob/master/images/main.JPG?raw=true",
         "alt": "Fetch API - Country Search Engine",
         "title": "Fetch API - Country Search Engine",
-        "desc": "Find out basic information about all countries in the world.",
+        "desc": "Finden Sie heraus, grundlegende Informationen über alle Länder der Welt.",
         "demo": "https://szympol.github.io/16.6_Country_Search_Engine/",
         "github": "https://github.com/szympol/16.6_Country_Search_Engine",
         "type": "api, all"
@@ -74,7 +74,7 @@
         "img": "https://github.com/szympol/16.8_Landing_page/blob/master/main.JPG?raw=true",
         "alt": "Awax landing page slicing",
         "title": "Awax landing page slicing",
-        "desc": "Slicing a website from PSD to fully Responsive Website with JS code.",
+        "desc": "Aufteilung einer Internetseite von PSD auf eine vollständige responsive Website mit JS Code.",
         "demo": "https://szympol.github.io/16.8_Landing_page/",
         "github": "https://github.com/szympol/16.8_Landing_page",
         "type": "layout, api, all"
@@ -84,7 +84,7 @@
         "img": "https://github.com/szympol/19.5_Refactoring_Gif-Searcher/blob/master/images/main.JPG?raw=true",
         "alt": "Gif Searcher",
         "title": "Gif Searcher",
-        "desc": "Search and find a suitable gif. Dynamic gif search engine.",
+        "desc": "Suchen und finden Sie ein passendes GIF. Dynamische GIF-Suchmaschine.",
         "demo": "https://szympol.github.io/19.5_Refactoring_Gif-Searcher/",
         "github": "https://github.com/szympol/19.5_Refactoring_Gif-Searcher",
         "type": "react, api, all"
@@ -94,7 +94,7 @@
         "img": "https://github.com/szympol/19.7_Stopwatch_ReactJS/blob/master/images/main.JPG?raw=true",
         "alt": "Stopwatch in ReactJS",
         "title": "Stopwatch in ReactJS",
-        "desc": "Simple stopwatch app. Count time and record intervals.",
+        "desc": "Einfache Stoppuhr-App. Zählen Sie die Zeit und schreiben Sie die Intervalle auf.",
         "demo": "https://szympol.github.io/19.7_Stopwatch_ReactJS/",
         "github": "https://github.com/szympol/19.7_Stopwatch_ReactJS",
         "type": "react, game, all"
@@ -104,7 +104,7 @@
         "img": "https://github.com/szympol/19.9_Github_User_Search/blob/master/images/main.JPG?raw=true",
         "alt": "GitHub User Search",
         "title": "GitHub User Search",
-        "desc": "Search GitHub users by their nicknames.",
+        "desc": "Suchen Sie GitHub-Benutzer anhand ihrer Spitznamen.",
         "demo": "https://szympol.github.io/19.9_Github_User_Search/",
         "github": "https://github.com/szympol/19.9_Github_User_Search",
         "type": "api, react, all"
@@ -114,7 +114,7 @@
         "img": "https://github.com/szympol/25.7_Authenticate_applications_using_Google/blob/master/images/main.JPG?raw=true",
         "alt": "Authenticate applications using Google",
         "title": "Authenticate applications using Google",
-        "desc": "Space travel login app with Google authorization",
+        "desc": "Raumfahrt Login-App mit Google-Autorisierung.",
         "demo": "",
         "github": "https://github.com/szympol/25.7_Authenticate_applications_using_Google",
         "type": "node, api, all"
@@ -124,7 +124,7 @@
         "img": "https://github.com/szympol/26._ChatApp/blob/master/images/main.JPG?raw=true",
         "alt": "ChatApp",
         "title": "ChatApp",
-        "desc": "Simple Chat app. Join the room and start sharing your thoughts.",
+        "desc": "Einfache Chat-App. Treten Sie dem Raum bei und teilen Sie Ihre Gedanken.",
         "demo": "",
         "github": "https://github.com/szympol/26._ChatApp",
         "type": "react, node, all"
@@ -134,7 +134,7 @@
         "img": "https://github.com/szympol/28_React_Router_CountriesList/blob/master/images/main.JPG?raw=true",
         "alt": "React Router CountriesList",
         "title": "React Router CountriesList",
-        "desc": "Countries List app in SPA architecture.",
+        "desc": "Länderliste App in SPA-Architektur.",
         "demo": "https://frosty-colden-f63461.netlify.com/#/",
         "github": "https://github.com/szympol/28_React_Router_CountriesList",
         "type": "react, all"
@@ -144,7 +144,7 @@
         "img": "https://github.com/szympol/35.6_React_component_tests/blob/master/images/main.JPG?raw=true",
         "alt": "Scorekeeper Board",
         "title": "Scorekeeper Board",
-        "desc": "Scorekeeper App! Never look for a piece of paper again!",
+        "desc": "Anschreiber App! Schauen Sie nie für ein Stück Papier wieder!",
         "demo": "https://brave-joliot-a88cbb.netlify.com/",
         "github": "https://github.com/szympol/35.6_React_component_tests",
         "type": "react, all"
@@ -154,7 +154,7 @@
         "img": "https://github.com/szympol/solo-project-1/blob/master/images/banbury.JPG?raw=true",
         "alt": "BMF Fabric site",
         "title": "BMF - Fabric Site",
-        "desc": "My first commercial site with form based on Bootstrap 3.",
+        "desc": "Meine erste kommerzielle Seite mit Formularen basierend auf Bootstrap 3.",
         "demo": "https://www.banburymodernfurniture.co.uk/bmf/fabric/fabric-page/index",
         "github": "",
         "type": "layout, all"
@@ -165,7 +165,7 @@
         "img": "https://cl.ly/457717c53781/tenor.gif",
         "alt": "Cinema seat picker",
         "title": "Cinema seat picker",
-        "desc": "Pick your seat and make a reservation.",
+        "desc": "Wählen Sie Ihren Sitzplatz und vornehmen Sie eine Reservierung.",
         "demo": "",
         "github": "https://github.com/szympol/warsawjs-workshop-33-seatpick",
         "type": "vue, all"
@@ -175,7 +175,7 @@
         "img": "https://via.placeholder.com/150x200?text=Portfolio",
         "alt": "Portfolio site",
         "title": "Portfolio site",
-        "desc": "Portfolio site",
+        "desc": "Alle wichtigen Infos über mich.",
         "demo": "",
         "github": "https://github.com/szympol/portfolio-site",
         "type": "react, layout, all"

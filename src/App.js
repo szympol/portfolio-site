@@ -5,6 +5,7 @@ import MediaQuery from 'react-responsive';
 
 import projectsDataEn from './data/projectsDataEn.json';
 import projectsDataDe from './data/projectsDataDe.json';
+import projectsDataPl from './data/projectsDataPl.json';
 
 import Hero from "./partials/Hero";
 import About from "./partials/About";
@@ -33,22 +34,27 @@ class App extends React.Component {
     this._pageScroller.goToPage(eventKey);
   };
 
-dataToggleTest = () => {
-    console.log('test1');
+  switchLanguageToEnglish = () => {
+    console.log('switchLanguageToEnglish');
+    this.setState({projectsData: projectsDataEn});
+  }
+
+  switchLanguageToGerman = () => {
+    console.log('switchLanguageToGerman');
     this.setState({projectsData: projectsDataDe});
   }
 
-  dataToggleTest2 = () => {
-    console.log('test2');
-    this.setState({projectsData: projectsDataEn});
+  switchLanguageToPolish = () => {
+    console.log('switchLanguageToPolish');
+    this.setState({projectsData: projectsDataPl});
   }
 
   render() {
 
     return (
       <div className="wrapper">
-{/*       <div onClick={this.dataToggleTest}>TEST</div>
-            <div onClick={this.dataToggleTest2}>Get back</div> */}
+{/*       <div onClick={this.switchLanguageToGerman}>German</div>
+            <div onClick={this.switchLanguageToEnglish}>English</div>  */}
         <MediaQuery minWidth={992}>
           <React.Fragment>
             <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
@@ -62,7 +68,7 @@ dataToggleTest = () => {
             <Technologies/>
             </ReactPageScroller>
             <Navigation goToPage={this.goToPage}/>
-            <Languages/>
+            <Languages switchLanguageToGerman={this.switchLanguageToGerman} switchLanguageToEnglish={this.switchLanguageToEnglish} switchLanguageToPolish={this.switchLanguageToPolish}/>
             <Footer/>
         </React.Fragment>
         </MediaQuery>
@@ -76,7 +82,7 @@ dataToggleTest = () => {
           <About/>
           <PortfolioBox projectsData={this.state.projectsData}/>
           <Technologies/>
-          <Languages/>
+          <Languages switchLanguageToGerman={this.switchLanguageToGerman} switchLanguageToEnglish={this.switchLanguageToEnglish} switchLanguageToPolish={this.switchLanguageToPolish}/>
           <Footer/>
         </MediaQuery>
       </div>

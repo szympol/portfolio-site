@@ -18,8 +18,18 @@ class Languages extends React.Component {
     }
     updateCurrentLanguageFlag = (e) => {
         const clickedLanguage = e.target.getAttribute('src');
+        const clickedLanguageAlt = e.target.getAttribute('alt');
+        console.log(clickedLanguageAlt)
         this.setState({currentLanguage: clickedLanguage});
         this.showLanguages();
+
+        if (clickedLanguageAlt === 'germany') {
+            this.props.switchLanguageToGerman();
+        } else if (clickedLanguageAlt === 'uk'){
+            this.props.switchLanguageToEnglish();
+        } else {
+            this.props.switchLanguageToPolish();
+        }
     }
 
     render() {
