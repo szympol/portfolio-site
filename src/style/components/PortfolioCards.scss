@@ -2,12 +2,15 @@
     height: auto;
     width: 200px;
     margin: 15px;
+    &--active {
+        animation: filterAnimation 1.5s ease-in-out;
+    }
     &:hover {
         .portfolio__wrapper {
             overflow: hidden;
         }
         .portfolio__wrapper .portfolio__links {
-            visibility: visible; 
+            visibility: visible;
             transform: translateY(0);
         }
     }
@@ -16,7 +19,7 @@
         height: 150px;
         width: 100%;
         border: 1px solid transparent;
-        
+
         .portfolio__image, .portfolio__links {
             position: absolute;
             top: 0;
@@ -75,6 +78,18 @@
 }
 
 
+@keyframes filterAnimation {
+    0% {
+        -webkit-clip-path: circle(1px at 50% 50%);
+        clip-path: circle(1px at 50% 50%);
+        opacity: 0;
+    }
 
+    100% {
+        -webkit-clip-path: circle(100% at 50% 50%);
+        clip-path: circle(100% at 50% 50%);
+        opacity: 1;
+    }
+}
 
 

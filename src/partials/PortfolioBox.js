@@ -21,6 +21,8 @@ class PortfolioBox extends React.Component {
         }
     }
 
+    
+
     filterPortfolio = (e) => {
         const portfolioFilterListElements = document.querySelectorAll('.portfolio__filter__list__element');
         const filterValue = e.target.getAttribute('data-filter');
@@ -31,7 +33,15 @@ class PortfolioBox extends React.Component {
         this.setState({
             filteredProjects: this.state.projectsData.filter(card => card.type.includes(`${filterValue}`))
         });
-    }
+
+        let allPortfolioCards = document.querySelectorAll('.portfolio__card');
+        allPortfolioCards.forEach(element => element.classList.remove('portfolio__card--active'));
+
+        setTimeout(function(){
+            let allPortfolioCards = document.querySelectorAll('.portfolio__card');
+            allPortfolioCards.forEach(element => element.classList.add('portfolio__card--active'));
+          }, 1);
+}
 
     render() {
       return (

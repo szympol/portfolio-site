@@ -4,7 +4,7 @@
         "img": "https://github.com/szympol/slicing-golden/blob/master/images/main.JPG?raw=true",
         "alt": "Slicing Golden Theme",
         "title": "Slicing Golden Theme",
-        "desc": "Sehenwuerdigkeiten",
+        "desc": "Aufteilen eine Website von PSD zu Responsive Website.",
         "demo": "https://szympol.github.io/slicing-golden/",
         "github": "https://github.com/szympol/slicing-golden",
         "type": "layout, all"
@@ -14,7 +14,7 @@
         "img": "https://github.com/szympol/solo-project-1/blob/master/images/dashboard.JPG?raw=true",
         "alt": "Dashboard slicing",
         "title": "Dashboard slicing",
-        "desc": "Sehenwuerdigkeiten",
+        "desc": "Aufteilen eine Übersichtsseite von PSD auf eine vollständig responsive Website.",
         "demo": "https://szympol.github.io/solo-project-1/",
         "github": "https://github.com/szympol/solo-project-1",
         "type": "layout, all"
@@ -24,7 +24,7 @@
         "img": "https://github.com/szympol/rockPaperScissors/blob/master/images/main.JPG?raw=true",
         "alt": "Rock-Paper-Scissors Game",
         "title": "Rock-Paper-Scissors Game",
-        "desc": "Sehenwuerdigkeiten",
+        "desc": "Stein-Papier-Schere-Spiel. Benutzer spielt gegen Computer.",
         "demo": "https://szympol.github.io/rockPaperScissors/",
         "github": "https://github.com/szympol/rockPaperScissors",
         "type": "vanillajs, game, all"
@@ -34,7 +34,7 @@
         "img": "https://github.com/szympol/14.-Using-JS-plugins/blob/master/images/mainP.jpg?raw=true",
         "alt": "Spot the highest mountains in the world",
         "title": "Spot the highest mountains in the world",
-        "desc": "Sehenwuerdigkeiten",
+        "desc": "Implemented carousel via Flickity connected to google map.",
         "demo": "https://szympol.github.io/14.-Using-JS-plugins/",
         "github": "https://github.com/szympol/14.-Using-JS-plugins",
         "type": "api, all"
@@ -44,7 +44,7 @@
         "img": "https://github.com/szympol/15.6._Trello-kanban-/blob/master/images/mainP.jpg?raw=true",
         "alt": "Kanban board",
         "title": "Kanban board - OOP in Vanilla JS",
-        "desc": "Sehenwuerdigkeiten",
+        "desc": "Kanban board to manage tasks - OOP in Vanilla JS",
         "demo": "https://szympol.github.io/15.6._Trello-kanban-/",
         "github": "https://github.com/szympol/15.6._Trello-kanban-",
         "type": "vanillajs, api, all"
@@ -54,7 +54,7 @@
         "img": "https://github.com/szympol/16.5._Fetch-API/blob/master/images/main.JPG?raw=true",
         "alt": "Quotes generator linked with Twitter",
         "title": "Quotes generator linked with Twitter",
-        "desc": "Sehenwuerdigkeiten",
+        "desc": "Generate and upload random quote on Twitter.",
         "demo": "https://szympol.github.io/16.5._Fetch-API/",
         "github": "https://github.com/szympol/16.5._Fetch-API",
         "type": "api, all"
@@ -64,7 +64,7 @@
         "img": "https://github.com/szympol/16.6_Country_Search_Engine/blob/master/images/main.JPG?raw=true",
         "alt": "Fetch API - Country Search Engine",
         "title": "Fetch API - Country Search Engine",
-        "desc": "Find out about basic information of all countries in the world.",
+        "desc": "Find out basic information about all countries in the world.",
         "demo": "https://szympol.github.io/16.6_Country_Search_Engine/",
         "github": "https://github.com/szympol/16.6_Country_Search_Engine",
         "type": "api, all"
