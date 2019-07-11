@@ -1,0 +1,32 @@
+[
+    {
+        "section": "hero",
+        "subtitle": ["Junior Front-End Deweloper",
+                    "Junior React entuzjasta",
+                    "Junior deweloper z pasją"],
+        "greetings": "Cześć! Jestem",
+        "name": "Szymon Polanowski"
+    },
+    {
+        "section": "O mnie",
+        "p1": "Pełen pasji, zorientowany na wyniki, niezawodny, gracz zespołowy.",
+        "p2": "Kiedy napisałem swoje pierwsze linie kodu, wiedziałem że się odnalazłem. Tworzenie stron internetowych pozwoliło mi na ponowne odkrycie i ożywienie moejej kreatywności. Połączenie designu i logiki jest tym, czego szukałem",
+        "p3": "Rozwijam swoje umiejętności zarówno w formie samokształcenia, jak i pod nadzorem doświadczonych programistów. Udało mi się pokroić kilka stron na podstawie plików PSD, wziąć udział w projekcie grupowym (Jira), napisać wiele małych i bardziej zaawansowanych aplikacji obejmujących wiele różnych technologii.",
+        "p4": "Stale dążę do doświadczenia stanu euforii po znalezieniu rozwiązania problemu."
+    },
+    {
+        "section": "Portfolio",
+        "filterNav": ["Wszystko", "React", "Layout", "API", "VanillaJS", "Gry", "Node", "Vue"]
+    },
+    {
+        "section": "Technologia"
+    },
+    {
+        "section": "nawigacja",
+        "menu": ["start", "o mnie", "portfolio", "technologia"]
+    },
+    {
+        "section": "Kontakt do mnie",
+        "cv": "https://github.com/szympol"
+    }
+]

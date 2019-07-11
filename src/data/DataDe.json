@@ -1,0 +1,32 @@
+[
+    {
+        "section": "hero",
+        "subtitle": ["Junior Front-End Entwickler",
+                    "Junior React&#39;s Verbreiter",
+                    "Junior Entwickler mit Leidenschaft"],
+        "greetings": "Hallo! Ich heiße",
+        "name": "Szymon Polanowski"
+    },
+    {
+        "section": "Über mich",
+        "p1": "Leidenschaftlicher, ergebnisorientierter, zuverlässiger Teamplayer. Ein großer Anhänger von React.",
+        "p2": "In dem Moment, als ich meine ersten Codezeilen schrieb, wusste ich, dass ich mich wiederfand. Was ich an der Webentwicklung liebe, ist, dass es mir half, meine Kreativität wiederzuentdecken. Die Kombination aus Design und Logik ist das, wonach ich suchte.",
+        "p3": "Ich entwickle meine Fähigkeiten sowohl im Selbststudium als auch unter Aufsicht erfahrener Entwickler. Ich schafte, einige Layouts aus PSD-Dateien zu schneiden, an einem Gruppenprojekt (Jira) teilzunehmen, viele kleine und fortgeschrittenere Anwendungen zu codieren, die eine große Anzahl verschiedener Technologien abdecken.",
+        "p4": "Ich sehne mich ständig nach diesem Euphoriegefühl, nachdem ich eine Lösung für die Herausforderung gefunden habe."
+    },
+    {
+        "section": "Portfolio",
+        "filterNav": ["Alles", "React", "Layout", "API", "VanillaJS", "Spiel", "Node", "Vue"]
+    },
+    {
+        "section": "Technologie"
+    },
+    {
+        "section": "navigation",
+        "menu": ["start", "über", "portfolio", "technologie"]
+    },
+    {
+        "section": "Kontaktieren Sie mich",
+        "cv": "https://github.com/szympol"
+    }
+]

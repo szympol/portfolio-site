@@ -1,8 +1,6 @@
 import React from "react";
 import PortfolioCards from './PortfolioCards';
 
-
-
 class PortfolioBox extends React.Component {
     constructor(props) {
         super(props);
@@ -21,7 +19,6 @@ class PortfolioBox extends React.Component {
         }
     }
 
-    
 
     filterPortfolio = (e) => {
         const portfolioFilterListElements = document.querySelectorAll('.portfolio__filter__list__element');

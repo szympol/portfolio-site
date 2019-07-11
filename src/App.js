@@ -3,6 +3,9 @@ import './App.scss';
 import ReactPageScroller from "react-page-scroller";
 import MediaQuery from 'react-responsive';
 
+import DataEn from './data/DataEn.json';
+import DataDe from './data/DataDe.json';
+import DataPl from './data/DataPl.json';
 import projectsDataEn from './data/projectsDataEn.json';
 import projectsDataDe from './data/projectsDataDe.json';
 import projectsDataPl from './data/projectsDataPl.json';
@@ -20,6 +23,7 @@ class App extends React.Component {
       super(props);
       this.state = {
         currentPage: 1,
+        data: DataEn,
         projectsData: projectsDataEn
       };
       this._pageScroller = null;
@@ -36,54 +40,53 @@ class App extends React.Component {
 
   switchLanguageToEnglish = () => {
     console.log('switchLanguageToEnglish');
-    this.setState({projectsData: projectsDataEn});
+    this.setState({
+      data: DataEn,
+      projectsData: projectsDataEn
+    });
   }
 
   switchLanguageToGerman = () => {
     console.log('switchLanguageToGerman');
-    this.setState({projectsData: projectsDataDe});
+    this.setState({
+      data: DataDe,
+      projectsData: projectsDataDe
+    });
   }
 
   switchLanguageToPolish = () => {
     console.log('switchLanguageToPolish');
-    this.setState({projectsData: projectsDataPl});
+    this.setState({
+      data: DataPl,
+      projectsData: projectsDataPl
+    });
   }
 
   render() {
 
     return (
       <div className="wrapper">
-{/*       <div onClick={this.switchLanguageToGerman}>German</div>
-            <div onClick={this.switchLanguageToEnglish}>English</div>  */}
         <MediaQuery minWidth={992}>
           <React.Fragment>
             <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
-            <Hero strings={[
-              'Junior Front-End Developer',
-              'Junior React&#39;s propagator',
-              'Junior developer with passion'
-            ]}/>
-            <About/>
-            <PortfolioBox projectsData={this.state.projectsData}/>
-            <Technologies/>
+            <Hero strings={this.state.data[0].subtitle} data={this.state.data[0]}/>
+            <About data={this.state.data[1]}/>
+            <PortfolioBox data={this.state.data[2]} projectsData={this.state.projectsData}/>
+            <Technologies data={this.state.data[3]}/>
             </ReactPageScroller>
-            <Navigation goToPage={this.goToPage}/>
+            <Navigation data={this.state.data[4]} goToPage={this.goToPage}/>
             <Languages switchLanguageToGerman={this.switchLanguageToGerman} switchLanguageToEnglish={this.switchLanguageToEnglish} switchLanguageToPolish={this.switchLanguageToPolish}/>
-            <Footer/>
+            <Footer data={this.state.data[5]}/>
         </React.Fragment>
         </MediaQuery>
         <MediaQuery  maxWidth={991}>
-          <Navigation/>
-          <Hero strings={[
-            'Junior Front-End Developer',
-            'Junior React&#39;s propagator',
-            'Junior developer with passion'
-          ]}/>
-          <About/>
-          <PortfolioBox projectsData={this.state.projectsData}/>
-          <Technologies/>
+          <Navigation data={this.state.data[4]}/>
+          <Hero strings={this.state.data[0].subtitle} data={this.state.data[0]}/>
+          <About data={this.state.data[1]}/>
+          <PortfolioBox data={this.state.data[2]} projectsData={this.state.projectsData}/>
+          <Technologies data={this.state.data[3]}/>
           <Languages switchLanguageToGerman={this.switchLanguageToGerman} switchLanguageToEnglish={this.switchLanguageToEnglish} switchLanguageToPolish={this.switchLanguageToPolish}/>
-          <Footer/>
+          <Footer data={this.state.data[5]}/>
         </MediaQuery>
       </div>
       );

@@ -5,8 +5,18 @@ class Navigation extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            menu: ['home', 'about', 'portfolio', 'technology']
         };
       }
+
+/*       componentDidUpdate(prevProps) {
+        console.log(prevProps.projectsData[0].desc)
+        if ( prevProps.projectsData[0].desc !==  this.props.projectsData[0].desc) {
+            this.setState({
+                menu: this.props.projectsData,
+              })
+        }
+    } */
 
       toggleNav = () => {
         const nav = document.querySelector('.nav');
@@ -32,9 +42,10 @@ class Navigation extends React.Component {
       }
 
 
+
 	render() {
 
-        const menu = ['home', 'about', 'portfolio', 'technology'];
+        const menu = this.state.menu;
         const isDesktopOrLaptop = this.getWindowInnerWidth();
 
         const menuItemsDesktopOrLaptop = menu.map((menuItem, i) =>
