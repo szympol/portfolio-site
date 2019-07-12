@@ -21,7 +21,6 @@ import sap from '../images/sap.png';
 const Technologies = (props) => {
     return (
         <section className="component" id="technology">
-            
             <div className="container technology">
             <h2>{props.data.section}</h2>
                 <div className="row technology--hideScrollbar">
