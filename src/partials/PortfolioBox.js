@@ -44,17 +44,17 @@ class PortfolioBox extends React.Component {
       return (
         <section className="component" id="portfolio">
             <div className="container portfolio">
-                <h1>Portfolio</h1>
+                <h1>{this.props.data.section}</h1>
                 <div className="portfolio__filter">
                     <ul className="portfolio__filter__list">
-                        <li className="portfolio__filter__list__element portfolio__filter__list__element--active" data-filter="all" onClick={(e) => this.filterPortfolio(e)}>All</li>
-                        <li className="portfolio__filter__list__element" data-filter="react" onClick={(e) => this.filterPortfolio(e)}>React</li>
-                        <li className="portfolio__filter__list__element" data-filter="layout" onClick={(e) => this.filterPortfolio(e)}>Layout</li>
-                        <li className="portfolio__filter__list__element" data-filter="api" onClick={(e) => this.filterPortfolio(e)}>API</li>
-                        <li className="portfolio__filter__list__element" data-filter="vanillajs" onClick={(e) => this.filterPortfolio(e)}>VanillaJS</li>
-                        <li className="portfolio__filter__list__element" data-filter="game" onClick={(e) => this.filterPortfolio(e)}>Game</li>
-                        <li className="portfolio__filter__list__element" data-filter="node" onClick={(e) => this.filterPortfolio(e)}>Node</li>
-                        <li className="portfolio__filter__list__element" data-filter="vue" onClick={(e) => this.filterPortfolio(e)}>Vue</li>
+                        <li className="portfolio__filter__list__element portfolio__filter__list__element--active" data-filter="all" onClick={(e) => this.filterPortfolio(e)}>{this.props.data.filterNav[0]}</li>
+                        <li className="portfolio__filter__list__element" data-filter="react" onClick={(e) => this.filterPortfolio(e)}>{this.props.data.filterNav[1]}</li>
+                        <li className="portfolio__filter__list__element" data-filter="layout" onClick={(e) => this.filterPortfolio(e)}>{this.props.data.filterNav[2]}</li>
+                        <li className="portfolio__filter__list__element" data-filter="api" onClick={(e) => this.filterPortfolio(e)}>{this.props.data.filterNav[3]}</li>
+                        <li className="portfolio__filter__list__element" data-filter="vanillajs" onClick={(e) => this.filterPortfolio(e)}>{this.props.data.filterNav[4]}</li>
+                        <li className="portfolio__filter__list__element" data-filter="game" onClick={(e) => this.filterPortfolio(e)}>{this.props.data.filterNav[5]}</li>
+                        <li className="portfolio__filter__list__element" data-filter="node" onClick={(e) => this.filterPortfolio(e)}>{this.props.data.filterNav[6]}</li>
+                        <li className="portfolio__filter__list__element" data-filter="vue" onClick={(e) => this.filterPortfolio(e)}>{this.props.data.filterNav[7]}</li>
                     </ul>
                 </div>
                   <div className="portfolio__box" onScroll={(e) => e.stopPropagation()} onWheel={(e) => e.stopPropagation()}>

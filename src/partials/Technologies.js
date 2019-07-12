@@ -18,12 +18,12 @@ import webpack from '../images/webpack.png';
 import prestashop from '../images/prestashop.png';
 import sap from '../images/sap.png';
 
-const Technologies = () => {
+const Technologies = (props) => {
     return (
         <section className="component" id="technology">
             
             <div className="container technology">
-            <h2>Technology</h2>
+            <h2>{props.data.section}</h2>
                 <div className="row technology--hideScrollbar">
                     <div className="col-xs-6 col-sm-6 col-md-4 col-lg-2 technology__icons"><img src={html5} alt="html5"></img></div>
                     <div className="col-xs-6 col-sm-6 col-md-4 col-lg-2 technology__icons"><img src={css3} alt="css3"></img></div>

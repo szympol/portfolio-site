@@ -5,18 +5,17 @@ class Navigation extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            menu: ['home', 'about', 'portfolio', 'technology']
+            menu: this.props.data.menu
         };
       }
 
-/*       componentDidUpdate(prevProps) {
-        console.log(prevProps.projectsData[0].desc)
-        if ( prevProps.projectsData[0].desc !==  this.props.projectsData[0].desc) {
+    componentDidUpdate(prevProps) {
+        if ( prevProps.data.section !==  this.props.data.section) {
             this.setState({
-                menu: this.props.projectsData,
+                menu: this.props.data.menu,
               })
         }
-    } */
+    }
 
       toggleNav = () => {
         const nav = document.querySelector('.nav');
@@ -69,9 +68,9 @@ class Navigation extends React.Component {
             </nav>
 
             <div className="hamburger" onClick={this.toggleNav}>
-                <span className="hamburger__patty"></span>
-                <span className="hamburger__patty"></span>
-                <span className="hamburger__patty"></span>
+                <span className="hamburger__bar"></span>
+                <span className="hamburger__bar"></span>
+                <span className="hamburger__bar"></span>
             </div>
         </React.Fragment>
 

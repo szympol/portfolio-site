@@ -119,12 +119,12 @@ footer {
     background-image: linear-gradient(to right, #d3faff , #9bf3ff);
 }
 
-.footer__modal__info--github, .footer__modal__info--phone {
+.footer__modal__info--github, .footer__modal__info--resume {
     background-image: linear-gradient(to right,#9bf3ff, #d3faff);
 }
 
-.footer__modal__info--phone {
-    &--number {
+.footer__modal__info--resume {
+    &--language {
         white-space: nowrap;
     }
 }
@@ -137,6 +137,12 @@ footer {
     transform: translate(0%, -50%) rotate(-45deg) !important;
     margin: 0 !important;
     background: $second-color!important;
+    &--linkedin {
+        transform: translate(-5%, -50%) rotate(-45deg) !important;
+    }
+    &--cv {
+        transform: translate(12%, -50%) rotate(-45deg) !important;
+    }
    }
 
 .__react_component_tooltip.type-dark.place-top:after {

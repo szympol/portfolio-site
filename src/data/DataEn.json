@@ -16,7 +16,7 @@
     },
     {
         "section": "Portfolio",
-        "filterNav": ["All", "React", "Layout", "API", "VanillaJS", "Game", "Node", "Vue"]
+        "filterNav": ["All", "React", "Layout", "API", "VanillaJS", "Games", "Node", "Vue"]
     },
     {
         "section": "Technology"
@@ -27,6 +27,7 @@
     },
     {
         "section": "Contact me",
-        "cv": "https://github.com/szympol"
+        "cvLink": "https://github.com/szympol",
+        "cvLanguage": "CV in English"
     }
 ]

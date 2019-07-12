@@ -27,6 +27,7 @@
     },
     {
         "section": "Kontakt do mnie",
-        "cv": "https://github.com/szympol"
+        "cvLink": "https://github.com/szympol",
+        "cvLanguage": "CV po polsku"
     }
 ]

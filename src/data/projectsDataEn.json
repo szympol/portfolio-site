@@ -43,7 +43,7 @@
         "id": 5,
         "img": "https://github.com/szympol/15.6._Trello-kanban-/blob/master/images/mainP.jpg?raw=true",
         "alt": "Kanban board",
-        "title": "Kanban board - OOP in Vanilla JS",
+        "title": "Kanban board",
         "desc": "Kanban board to manage tasks - OOP in Vanilla JS.",
         "demo": "https://szympol.github.io/15.6._Trello-kanban-/",
         "github": "https://github.com/szympol/15.6._Trello-kanban-",
@@ -112,8 +112,8 @@
     {
         "id": 12,
         "img": "https://github.com/szympol/25.7_Authenticate_applications_using_Google/blob/master/images/main.JPG?raw=true",
-        "alt": "Authenticate applications using Google",
-        "title": "Authenticate applications using Google",
+        "alt": "Authenticating application using Google",
+        "title": "Authenticating application using Google",
         "desc": "Space travel login app with Google authorization.",
         "demo": "",
         "github": "https://github.com/szympol/25.7_Authenticate_applications_using_Google",
@@ -165,7 +165,7 @@
         "img": "https://cl.ly/457717c53781/tenor.gif",
         "alt": "Cinema seat picker",
         "title": "Cinema seat picker",
-        "desc": "Pick your seat and make a reservation.",
+        "desc": "Pick your seat and make a reservation. Group project - Vue workshops with WarsawJS.",
         "demo": "",
         "github": "https://github.com/szympol/warsawjs-workshop-33-seatpick",
         "type": "vue, all"
