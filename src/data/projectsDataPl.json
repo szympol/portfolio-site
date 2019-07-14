@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "https://github.com/szympol/slicing-golden/blob/master/images/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/slicing-golden/master/images/slicingGoldenCover.JPG",
         "alt": "Cięcie Golden Theme",
         "title": "Cięcie Golden Theme",
         "desc": "Przekształcanie projektu z pliku PSD na stronę responsywną.",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "img": "https://github.com/szympol/solo-project-1/blob/master/images/dashboard.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/solo-project-1/master/images/dashboardCover.JPG",
         "alt": "Cięcie pulpitu",
         "title": "Cięcie pulpitu",
         "desc": "Przekształcanie pulpitu strony z pliku PSD w pełni responsywną stronę.",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "img": "https://github.com/szympol/rockPaperScissors/blob/master/images/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/rockPaperScissors/master/images/rockPaperScissorsCover.jpg",
         "alt": "Gra Papier-kamień-nożyce",
         "title": "Gra Papier-kamień-nożyce",
         "desc": "Gra Papier-kamień-nożyce. Użytkownik gra przeciwko komputerowi.",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "img": "https://github.com/szympol/14.-Using-JS-plugins/blob/master/images/mainP.jpg?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/14.-Using-JS-plugins/master/images/mountainsCover.JPG",
         "alt": "Zlokalizuj najwyższe góry świata",
         "title": "Zlokalizuj najwyższe góry świata",
         "desc": "Zaimplementowana karuzela za pomocą Flickity, połączona z mapą google.",
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "img": "https://github.com/szympol/15.6._Trello-kanban-/blob/master/images/mainP.jpg?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/15.6._Trello-kanban-/master/images/kanbanBoardCover.jpg",
         "alt": "Tablica Kanban",
         "title": "Tablica Kanban",
         "desc": "Tablica Kanban do zarządzania zadaniami - OOP w Vanilla JS",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "img": "https://github.com/szympol/16.5._Fetch-API/blob/master/images/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/16.5._Fetch-API/master/images/twitterCover.JPG",
         "alt": "Generator cytatów połączony z Twitter",
         "title": "Generator cytatów połączony z Twitter",
         "desc": "Wygeneruj i prześlij losowy cytat na Twittera.",
@@ -61,7 +61,7 @@
     },
     {
         "id": 7,
-        "img": "https://github.com/szympol/16.6_Country_Search_Engine/blob/master/images/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/16.6_Country_Search_Engine/master/images/countrySearchEngine.JPG",
         "alt": "Fetch API - Wyszukiwarka krajów",
         "title": "Fetch API - Wyszukiwarka krajów",
         "desc": "Dowiedź się o podstawowych informacjach wszystkich krajów świata.",
@@ -71,7 +71,7 @@
     },
     {
         "id": 8,
-        "img": "https://github.com/szympol/16.8_Landing_page/blob/master/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/16.8_Landing_page/master/awaxCover.JPG",
         "alt": "Cięcie Awax landing page",
         "title": "Cięcie Awax landing page",
         "desc": "Przekształcanie projektu z PSD w pełni responsywną stronę z kodem JS.",
@@ -81,7 +81,7 @@
     },
     {
         "id": 9,
-        "img": "https://github.com/szympol/19.5_Refactoring_Gif-Searcher/blob/master/images/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/19.5_Refactoring_Gif-Searcher/master/images/gifCover.jpg",
         "alt": "Wyszukiwarka gifów",
         "title": "Wyszukiwarka gifów",
         "desc": "Szukaj i znajdź odpowiedniego gif'a. Dynamiczna wyszukiwarka gifów.",
@@ -91,7 +91,7 @@
     },
     {
         "id": 10,
-        "img": "https://github.com/szympol/19.7_Stopwatch_ReactJS/blob/master/images/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/19.7_Stopwatch_ReactJS/master/images/stoperCover.jpg",
         "alt": "Stoper w ReactJS",
         "title": "Stoper w  ReactJS",
         "desc": "Prosta aplikacja stoper. Zliczaj czas i odstępy między interwałami.",
@@ -101,7 +101,7 @@
     },
     {
         "id": 11,
-        "img": "https://github.com/szympol/19.9_Github_User_Search/blob/master/images/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/19.9_Github_User_Search/master/images/githubUserSearchCover.jpg",
         "alt": "Wyszukiwarka użytkowników GitHub",
         "title": "Wyszukiwarka użytkowników GitHub",
         "desc": "Szukaj użytkowników GitHub'a według ich pseudonimów.",
@@ -111,7 +111,7 @@
     },
     {
         "id": 12,
-        "img": "https://github.com/szympol/25.7_Authenticate_applications_using_Google/blob/master/images/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/25.7_Authenticate_applications_using_Google/master/images/authenticateApplicationsUsingGoogleCover.JPG",
         "alt": "Uwierzytelnianie aplikacji za pomocą Google",
         "title": "Uwierzytelnianie aplikacji za pomocą Google",
         "desc": "Aplikacja do logowania z autoryzacją Google wysłyjąca w podróż kosmiczną.",
@@ -121,7 +121,7 @@
     },
     {
         "id": 13,
-        "img": "https://github.com/szympol/26._ChatApp/blob/master/images/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/26._ChatApp/master/images/chatCover.jpg",
         "alt": "Czat",
         "title": "Czat",
         "desc": "Prosta aplikacja do czatu. Dołącz i zacznij dzielić się swoimi przemyśleniami.",
@@ -131,7 +131,7 @@
     },
     {
         "id": 14,
-        "img": "https://github.com/szympol/28_React_Router_CountriesList/blob/master/images/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/28_React_Router_CountriesList/master/images/reactRouterCountriesListCover.jpg",
         "alt": "React Router Lista krajów",
         "title": "React Router Lista krajów",
         "desc": "Aplikacja listy krajów w architekturze SPA.",
@@ -141,7 +141,7 @@
     },
     {
         "id": 15,
-        "img": "https://github.com/szympol/35.6_React_component_tests/blob/master/images/main.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/35.6_React_component_tests/master/images/scorekeeperCover.jpg",
         "alt": "Tablica do punktacji",
         "title": "Tablica do punktacji",
         "desc": "Aplikacja do prowadzenia punktacji! Nigdy więcej nie szukaj kawałka papieru!",
@@ -151,7 +151,7 @@
     },
     {
         "id": 16,
-        "img": "https://github.com/szympol/solo-project-1/blob/master/images/banbury.JPG?raw=true",
+        "img": "https://raw.githubusercontent.com/szympol/solo-project-1/master/images/banburyCover.JPG",
         "alt": "BMF - Strona z tkaninami",
         "title": "BMF - Strona z tkaninami",
         "desc": "Moja pierwsza komercyjna strona z formularem w oparciu o Bootstrap 3.",
@@ -162,7 +162,7 @@
     ,
     {
         "id": 17,
-        "img": "https://cl.ly/457717c53781/tenor.gif",
+        "img": "https://raw.githubusercontent.com/szympol/warsawjs-workshop-33-seatpick/master/cinemaCover.jpg",
         "alt": "Rezerwacja miejsc w kinie",
         "title": "Rezerwacja miejsc w kinie",
         "desc": "Wybierz miejsce i dokonaj rezerwacji. Projekt grupowy - warsztaty Vue z WarsawJS.",
@@ -172,7 +172,7 @@
     },
     {
         "id": 18,
-        "img": "https://via.placeholder.com/150x200?text=Portfolio",
+        "img": "https://raw.githubusercontent.com/szympol/portfolio-site/master/portfolioCover.JPG",
         "alt": "Strona portfolio",
         "title": "Strona portfolio",
         "desc": "Wszystko co najważniejsze o mnie.",
