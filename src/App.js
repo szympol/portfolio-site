@@ -79,7 +79,7 @@ class App extends React.Component {
             <Footer data={this.state.data[5]}/>
         </React.Fragment>
         </MediaQuery>
-        <MediaQuery  maxWidth={991}>
+        <MediaQuery maxWidth={991}>
           <Navigation data={this.state.data[4]}/>
           <Hero strings={this.state.data[0].subtitle} data={this.state.data[0]}/>
           <About data={this.state.data[1]}/>
