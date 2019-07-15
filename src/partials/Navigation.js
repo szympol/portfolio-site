@@ -47,15 +47,15 @@ class Navigation extends React.Component {
         const menu = this.state.menu;
         const isDesktopOrLaptop = this.getWindowInnerWidth();
 
-        const menuItemsDesktopOrLaptop = menu.map((menuItem, i) =>
+        const menuItemsDesktopOrLaptop = menu.lang.map((menuItem, i) =>
             <div className="nav__link" key={i} eventkey={i} onClick={() => {this.props.goToPage(i); this.toggleNav();}}>
                 {menuItem}
             </div>
         );
 
-        const menuItemsTabletOrMobile = menu.map((menuItem, i) =>
-            <a href={'#' + menuItem} className="nav__link" key={i} onClick={this.toggleNav}>
-                {menuItem}
+        const menuItemsTabletOrMobile = menu.nav.map((menuItem, i) =>
+            <a href={'#' + Object.keys(menuItem)} className="nav__link" key={i} onClick={this.toggleNav}>
+                {Object.values(menuItem)} 
             </a>
         );
 

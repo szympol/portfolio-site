@@ -23,7 +23,10 @@
     },
     {
         "section": "nawigacja",
-        "menu": ["start", "o mnie", "portfolio", "technologia"]
+        "menu": {
+            "lang": ["start", "o mnie", "portfolio", "technologia"],
+            "nav": [{"hero": "start"}, {"about": "o mnie"},  {"portfolio": "portfolio"}, {"technology": "technologia"}]
+        }
     },
     {
         "section": "Kontakt do mnie",
