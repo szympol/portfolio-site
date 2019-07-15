@@ -166,7 +166,7 @@
         "alt": "Rezerwacja miejsc w kinie",
         "title": "Rezerwacja miejsc w kinie",
         "desc": "Wybierz miejsce i dokonaj rezerwacji. Projekt grupowy - warsztaty Vue z WarsawJS.",
-        "demo": "",
+        "demo": "https://zealous-wozniak-3b4b46.netlify.com/",
         "github": "https://github.com/szympol/warsawjs-workshop-33-seatpick",
         "type": "vue, all"
     },
