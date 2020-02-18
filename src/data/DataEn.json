@@ -1,29 +1,53 @@
 [
     {
         "section": "Hero",
-        "subtitle": ["Junior Front-End Developer",
-                    "Junior React&#39;s propagator",
-                    "Junior developer with passion"],
+        "subtitle": [
+            "Front-End Developer",
+            "Vue and React propagator",
+            "Developer with passion"
+        ],
         "greetings": "Hi! I am",
         "name": "Szymon Polanowski"
     },
     {
         "section": "About me",
-        "p1": "Passionate, result-oriented, reliable, team player. A big fan of React.",
+        "p1": "Passionate, result-oriented, reliable, team player. A big fan of Vue and React.",
         "p2": "The moment I wrote my first lines of code, I knew that I found myself. What I love about web development is that it helped me in rediscovering and reinvigorating my creativity. The combination of design and logic is what I was looking for.",
-        "p3": "I develop my skills both through self-study and under the supervision of experienced developers. I have managed to slice a few layouts from PSD files, participate in a group project (Jira), code many small and more advanced applications covering a great number of different technologies.",
+        "p3": "I develop my skills both through self-study and under the supervision of experienced developers. I have managed to create Landing Pages, participate in group projects on a big scale, code many small and more advanced applications covering a great number of different technologies related to Vue & React.",
         "p4": "I constantly strive to deliver the most effective solution to the challenge."
     },
     {
         "section": "Portfolio",
-        "filterNav": ["All", "React", "Layout", "API", "VanillaJS", "Games", "Node", "Vue"]
+        "filterNav": [
+            "All",
+            "Vue",
+            "React",
+            "Layout",
+            "API",
+            "VanillaJS",
+            "Games",
+            "Node"
+        ]
     },
     {
         "section": "Technology"
     },
     {
         "section": "Navigation",
-        "menu": [{"hero": "home"}, {"about": "about"}, {"portfolio": "portfolio"}, {"technology": "technology"}]
+        "menu": [
+            {
+                "hero": "home"
+            },
+            {
+                "about": "about"
+            },
+            {
+                "portfolio": "portfolio"
+            },
+            {
+                "technology": "technology"
+            }
+        ]
     },
     {
         "section": "Contact me",

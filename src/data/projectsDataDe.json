@@ -158,8 +158,7 @@
         "demo": "https://www.banburymodernfurniture.co.uk/bmf/fabric/fabric-page/index",
         "github": "",
         "type": "layout, all"
-    }
-    ,
+    },
     {
         "id": 17,
         "img": "https://raw.githubusercontent.com/szympol/warsawjs-workshop-33-seatpick/master/cinemaCover.jpg",
@@ -178,6 +177,36 @@
         "desc": "Alle wichtigen Infos über mich.",
         "demo": "",
         "github": "https://github.com/szympol/portfolio-site",
+        "type": "react, layout, all"
+    },
+    {
+        "id": 19,
+        "img": "https://raw.githubusercontent.com/szympol/portfolio-site/master/twoStepWizard.jpg",
+        "alt": "Two Step Wizard",
+        "title": "Two Step Wizard",
+        "desc": "Code challenge. Formular mit Validierung, Material UI und body request an API gesendet (siehe Konsole).",
+        "demo": "https://condescending-elion-95b5aa.netlify.com/",
+        "github": "",
+        "type": "react, all"
+    },
+    {
+        "id": 20,
+        "img": "https://raw.githubusercontent.com/szympol/vue-router-travel-app/master/vueRouterTravelApp.jpg",
+        "alt": "Vue router travel app",
+        "title": "Vue router travel app",
+        "desc": "Vue-App mit Router-Funktionen und grundlegender Authentifizierung.",
+        "demo": "https://distracted-tereshkova-845efa.netlify.com/",
+        "github": "https://github.com/szympol/vue-router-travel-app",
+        "type": "vue, all"
+    },
+    {
+        "id": 21,
+        "img": "https://raw.githubusercontent.com/szympol/portfolio-site/master/mhfGatsby.jpg",
+        "alt": "Sofa Upholstery Guide",
+        "title": "Landing Page in Gatsby",
+        "desc": "Sofa Upholstery Guide basierend auf Gatsby.",
+        "demo": "https://www.modernhousefurniture.co.uk/",
+        "github": "",
         "type": "react, layout, all"
     }
 ]

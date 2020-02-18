@@ -1,9 +1,11 @@
 [
     {
         "section": "hero",
-        "subtitle": ["Junior Front-End Deweloper",
-                    "Junior React entuzjasta",
-                    "Junior deweloper z pasją"],
+        "subtitle": [
+            "Front-End Deweloper",
+            "Entuzjasta Vue i React",
+            "Deweloper z pasją"
+        ],
         "greetings": "Cześć! Jestem",
         "name": "Szymon Polanowski"
     },
@@ -11,19 +13,41 @@
         "section": "O mnie",
         "p1": "Pełen pasji, zorientowany na wyniki, niezawodny, gracz zespołowy.",
         "p2": "Kiedy napisałem swoje pierwsze linie kodu, wiedziałem że się odnalazłem. Tworzenie stron internetowych pozwoliło mi na ponowne odkrycie i pobudzenie mojej kreatywności. Połączenie designu i logiki jest tym, czego szukałem.",
-        "p3": "Rozwijam swoje umiejętności zarówno w formie samokształcenia, jak i pod nadzorem doświadczonych programistów. Udało mi się pokroić kilka stron na podstawie plików PSD, wziąć udział w projekcie grupowym (Jira), napisać wiele małych i bardziej zaawansowanych aplikacji obejmujących wiele różnych technologii.",
+        "p3": "Rozwijam swoje umiejętności zarówno w formie samokształcenia, jak i pod nadzorem doświadczonych programistów. Udało mi się pokroić kilka stron na podstawie plików PSD, uczestniczyć w projektach grupowych na dużą skalę, napisać wiele małych i bardziej zaawansowanych aplikacji obejmujących wiele różnych technologii związanych z Vue & React.",
         "p4": "Stale dążę do dostarczenia jak najefektywniejszego rozwiązania problemu."
     },
     {
         "section": "Portfolio",
-        "filterNav": ["Wszystko", "React", "Layout", "API", "VanillaJS", "Gry", "Node", "Vue"]
+        "filterNav": [
+            "Wszystko",
+            "Vue",
+            "React",
+            "Layout",
+            "API",
+            "VanillaJS",
+            "Gry",
+            "Node"
+        ]
     },
     {
         "section": "Technologia"
     },
     {
         "section": "nawigacja",
-        "menu": [{"hero": "start"}, {"about": "o mnie"},  {"portfolio": "portfolio"}, {"technology": "technologia"}]
+        "menu": [
+            {
+                "hero": "start"
+            },
+            {
+                "about": "o mnie"
+            },
+            {
+                "portfolio": "portfolio"
+            },
+            {
+                "technology": "technologia"
+            }
+        ]
     },
     {
         "section": "Kontakt do mnie",

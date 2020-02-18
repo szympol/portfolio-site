@@ -1,29 +1,53 @@
 [
     {
         "section": "hero",
-        "subtitle": ["Junior Front-End Entwickler",
-                    "Junior React&#39;s Verbreiter",
-                    "Junior Entwickler mit Leidenschaft"],
+        "subtitle": [
+            "Front-End Entwickler",
+            "React und Vue Verbreiter",
+            "Entwickler mit Leidenschaft"
+        ],
         "greetings": "Hallo! Ich heiße",
         "name": "Szymon Polanowski"
     },
     {
         "section": "Über mich",
-        "p1": "Leidenschaftlicher, ergebnisorientierter, zuverlässiger Teamplayer. Ein großer Anhänger von React.",
+        "p1": "Leidenschaftlicher, ergebnisorientierter, zuverlässiger Teamplayer. Ein großer Anhänger von Vue und React.",
         "p2": "In dem Moment, als ich meine ersten Codezeilen schrieb, wusste ich, dass ich mich wiederfand. Was ich an der Webentwicklung liebe, ist, dass es mir half, meine Kreativität wiederzuentdecken. Die Kombination aus Design und Logik ist das, wonach ich suchte.",
-        "p3": "Ich entwickle meine Fähigkeiten sowohl im Selbststudium als auch unter Aufsicht erfahrener Entwickler. Ich schafte, einige Layouts aus PSD-Dateien zu schneiden, an einem Gruppenprojekt (Jira) teilzunehmen, viele kleine und fortgeschrittenere Anwendungen zu codieren, die eine große Anzahl verschiedener Technologien abdecken.",
+        "p3": "Ich entwickle meine Fähigkeiten sowohl im Selbststudium als auch unter Aufsicht erfahrener Entwickler. Ich schafte, Landing Pages zu erstellen, Gruppenprojekten in großem Maßstab teilzunehmen, viele kleine und fortgeschrittenere Anwendungen zu codieren, die eine große Anzahl verschiedener Technologien im Zusammenhang mit Vue & React abdecken.",
         "p4": "Ich bin ständig bemüht, die effektivste Lösung für die Herausforderung zu liefern."
     },
     {
         "section": "Portfolio",
-        "filterNav": ["Alles", "React", "Layout", "API", "VanillaJS", "Spiele", "Node", "Vue"]
+        "filterNav": [
+            "Alles",
+            "Vue",
+            "React",
+            "Layout",
+            "API",
+            "VanillaJS",
+            "Spiele",
+            "Node"
+        ]
     },
     {
         "section": "Technologie"
     },
     {
         "section": "navigation",
-        "menu": [{"hero": "start"}, {"about": "über"}, {"portfolio": "portfolio"}, {"technology": "technologie"}]
+        "menu": [
+            {
+                "hero": "start"
+            },
+            {
+                "about": "über"
+            },
+            {
+                "portfolio": "portfolio"
+            },
+            {
+                "technology": "technologie"
+            }
+        ]
     },
     {
         "section": "Kontaktieren Sie mich",
