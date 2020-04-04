@@ -6,9 +6,9 @@ import MediaQuery from "react-responsive";
 import DataEn from "./data/DataEn.json";
 import DataDe from "./data/DataDe.json";
 import DataPl from "./data/DataPl.json";
-import projectsDataEn from "./data/projectsDataEn.json";
-import projectsDataDe from "./data/projectsDataDe.json";
-import projectsDataPl from "./data/projectsDataPl.json";
+import projectsDataEnglish from "./data/projectsDataEn.json";
+import projectsDataGerman from "./data/projectsDataDe.json";
+import projectsDataPolish from "./data/projectsDataPl.json";
 
 import Hero from "./partials/Hero";
 import About from "./partials/About";
@@ -18,9 +18,9 @@ import Navigation from "./partials/Navigation";
 import Languages from "./partials/Languages";
 import Footer from "./partials/Footer";
 
-// const projectsDataEn = JSON.parse(projectsDataEnglish).reverse();
-// const projectsDataDe = JSON.parse(projectsDataGerman).reverse();
-// const projectsDataPl = JSON.parse(projectsDataPolish).reverse();
+const projectsDataEn = projectsDataEnglish.reverse();
+const projectsDataDe = projectsDataGerman.reverse();
+const projectsDataPl = projectsDataPolish.reverse();
 
 class App extends React.Component {
   constructor(props) {
