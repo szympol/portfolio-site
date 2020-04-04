@@ -43,7 +43,7 @@ class Footer extends React.Component {
     const { section, cvLanguage, cvLink } = this.props.data;
     const { isModalOpen } = this.state;
     return (
-      <footer>
+      <footer className="footer">
         <div className="footer__contactMe" onClick={this.toggleModal}>
           {section}
         </div>
