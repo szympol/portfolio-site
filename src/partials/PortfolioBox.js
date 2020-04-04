@@ -49,10 +49,21 @@ class PortfolioBox extends React.Component {
   };
 
   render() {
+    const { section } = this.props.data;
+    const [
+      AllTab,
+      ReactTab,
+      VueTab,
+      LayoutTab,
+      NodeTab,
+      OtherTab,
+    ] = this.props.data.filterNav;
+
+    const { filteredProjects } = this.state;
     return (
       <section className="component" id="portfolio">
         <div className="container portfolio">
-          <h1>{this.props.data.section}</h1>
+          <h1>{section}</h1>
           <div className="portfolio__filter">
             <ul className="portfolio__filter__list">
               <li
@@ -60,42 +71,42 @@ class PortfolioBox extends React.Component {
                 data-filter="all"
                 onClick={(e) => this.filterPortfolio(e)}
               >
-                {this.props.data.filterNav[0]}
+                {AllTab}
               </li>
               <li
                 className="portfolio__filter__list__element"
                 data-filter="react"
                 onClick={(e) => this.filterPortfolio(e)}
               >
-                {this.props.data.filterNav[1]}
+                {ReactTab}
               </li>
               <li
                 className="portfolio__filter__list__element"
                 data-filter="vue"
                 onClick={(e) => this.filterPortfolio(e)}
               >
-                {this.props.data.filterNav[2]}
+                {VueTab}
               </li>
               <li
                 className="portfolio__filter__list__element"
                 data-filter="layout"
                 onClick={(e) => this.filterPortfolio(e)}
               >
-                {this.props.data.filterNav[3]}
+                {LayoutTab}
               </li>
               <li
                 className="portfolio__filter__list__element"
                 data-filter="node"
                 onClick={(e) => this.filterPortfolio(e)}
               >
-                {this.props.data.filterNav[4]}
+                {NodeTab}
               </li>
               <li
                 className="portfolio__filter__list__element"
                 data-filter="other"
                 onClick={(e) => this.filterPortfolio(e)}
               >
-                {this.props.data.filterNav[5]}
+                {OtherTab}
               </li>
             </ul>
           </div>
@@ -105,7 +116,7 @@ class PortfolioBox extends React.Component {
             onWheel={(e) => e.stopPropagation()}
           >
             <main className="portfolio__content row">
-              {this.state.filteredProjects.map((data) => (
+              {filteredProjects.map((data) => (
                 <PortfolioCards
                   key={data.id}
                   id={data.id}

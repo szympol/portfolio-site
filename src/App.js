@@ -26,20 +26,13 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentPage: 1,
+      currentPage: 0,
       data: DataEn,
       projectsData: projectsDataEn,
     };
-    this._pageScroller = null;
   }
 
-  pageOnChange = (number) => {
-    this.setState({ currentPage: number });
-  };
-
-  goToPage = (eventKey) => {
-    this._pageScroller.goToPage(eventKey);
-  };
+  handlePageChange = (number) => this.setState({ currentPage: number });
 
   switchLanguage = (language) => {
     const data =
@@ -59,10 +52,7 @@ class App extends React.Component {
         ? projectsDataPl
         : null;
 
-    this.setState({
-      data: data,
-      projectsData: projectsData,
-    });
+    this.setState({ data, projectsData });
   };
 
   render() {
@@ -79,8 +69,8 @@ class App extends React.Component {
         <MediaQuery minWidth={992}>
           <React.Fragment>
             <ReactPageScroller
-              forwardRef={(c) => (this._pageScroller = c)}
-              pageOnChange={this.pageOnChange}
+              pageOnChange={this.handlePageChange}
+              customPageNumber={this.state.currentPage}
             >
               <Hero strings={hero.subtitle} data={hero} />
               <About data={about} />
@@ -90,7 +80,7 @@ class App extends React.Component {
               />
               <Technologies data={technologies} />
             </ReactPageScroller>
-            <Navigation data={navigation} goToPage={this.goToPage} />
+            <Navigation data={navigation} goToPage={this.handlePageChange} />
             <Languages
               switchLanguageToGerman={this.switchLanguage}
               switchLanguageToEnglish={this.switchLanguage}
