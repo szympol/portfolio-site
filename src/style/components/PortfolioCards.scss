@@ -2,25 +2,30 @@
     height: auto;
     width: 200px;
     margin: 15px;
+
     &--active {
         animation: filterAnimation 1.5s ease-in-out;
     }
+
     &:hover {
         .portfolio__wrapper {
             overflow: hidden;
         }
+
         .portfolio__wrapper .portfolio__links {
             visibility: visible;
             transform: translateY(0);
         }
     }
+
     .portfolio__wrapper {
         position: relative;
         height: 150px;
         width: 100%;
         border: 1px solid transparent;
 
-        .portfolio__image, .portfolio__links {
+        .portfolio__image,
+        .portfolio__links {
             position: absolute;
             top: 0;
             left: 0;
@@ -28,17 +33,19 @@
             width: 100%;
 
         }
+
         .portfolio__links {
             display: flex;
             align-items: center;
             justify-content: space-evenly;
             flex-direction: column;
-            background: rgba(0,0,0,0.4);
+            background: rgba(0, 0, 0, 0.4);
             visibility: hidden;
             transform: translateY(-100%);
             transition: transform 0.4s ease-in-out;
 
-            .portfolio__github, .portfolio__demo {
+            .portfolio__github,
+            .portfolio__demo {
                 text-decoration: none;
                 padding: 10px 0;
                 min-width: 100px;
@@ -54,23 +61,23 @@
             }
         }
     }
+
     .portfolio__text {
-        background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%), linear-gradient(black 33%, rgba(255,255,255,0) 0%), linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%), linear-gradient(black 33%, rgba(255,255,255,0) 0%);
-        // background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, white 0%), linear-gradient( rgba(255,255,255,0) 50%, white 0%), linear-gradient(to right, rgba(255,255,255,0) 50%, white 0%), linear-gradient( rgba(255,255,255,0) 50%, white 0%);
+        background-image: linear-gradient(to right, black 33%, rgba(255, 255, 255, 0) 0%), linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%), linear-gradient(to right, black 33%, rgba(255, 255, 255, 0) 0%), linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
         background-position: top, right, bottom, left;
         background-repeat: repeat-x, repeat-y;
         background-size: 10px 1px, 1px 10px;
         margin-top: -5px;
-        height: 120px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         padding: 5px;
-        h4 {
+
+        .portfolio__text-title {
             margin: 5px;
             text-align: center;
         }
-        p {
+
+        .portfolio__text-description {
             margin: 5px;
             font-size: .875em;
         }
@@ -91,5 +98,3 @@
         opacity: 1;
     }
 }
-
-
