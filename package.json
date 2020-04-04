@@ -7,6 +7,7 @@
     "@fortawesome/free-brands-svg-icons": "5.13.0",
     "@fortawesome/free-solid-svg-icons": "5.13.0",
     "@fortawesome/react-fontawesome": "0.1.9",
+    "intersection-observer": "^0.7.0",
     "node-sass": "4.13.1",
     "react": "16.13.1",
     "react-awesome-reveal": "^2.4.2",
