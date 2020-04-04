@@ -79,7 +79,7 @@ class App extends React.Component {
         <MediaQuery minWidth={992}>
           <React.Fragment>
             <ReactPageScroller
-              ref={(c) => (this._pageScroller = c)}
+              forwardRef={(c) => (this._pageScroller = c)}
               pageOnChange={this.pageOnChange}
             >
               <Hero strings={hero.subtitle} data={hero} />
