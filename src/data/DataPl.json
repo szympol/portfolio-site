@@ -20,13 +20,11 @@
         "section": "Portfolio",
         "filterNav": [
             "Wszystko",
-            "Vue",
             "React",
+            "Vue",
             "Layout",
-            "API",
-            "VanillaJS",
-            "Gry",
-            "Node"
+            "Node",
+            "Inne"
         ]
     },
     {

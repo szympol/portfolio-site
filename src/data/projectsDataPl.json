@@ -27,100 +27,40 @@
         "desc": "Gra Papier-kamień-nożyce. Użytkownik gra przeciwko komputerowi.",
         "demo": "https://szympol.github.io/rockPaperScissors/",
         "github": "https://github.com/szympol/rockPaperScissors",
-        "type": "vanillajs, game, all"
+        "type": "other, all"
     },
     {
         "id": 4,
-        "img": "https://raw.githubusercontent.com/szympol/14.-Using-JS-plugins/master/images/mountainsCover.JPG",
-        "alt": "Zlokalizuj najwyższe góry świata",
-        "title": "Zlokalizuj najwyższe góry świata",
-        "desc": "Zaimplementowana karuzela za pomocą Flickity, połączona z mapą google.",
-        "demo": "https://szympol.github.io/14.-Using-JS-plugins/",
-        "github": "https://github.com/szympol/14.-Using-JS-plugins",
-        "type": "api, all"
-    },
-    {
-        "id": 5,
-        "img": "https://raw.githubusercontent.com/szympol/15.6._Trello-kanban-/master/images/kanbanBoardCover.jpg",
-        "alt": "Tablica Kanban",
-        "title": "Tablica Kanban",
-        "desc": "Tablica Kanban do zarządzania zadaniami - OOP w Vanilla JS",
-        "demo": "https://szympol.github.io/15.6._Trello-kanban-/",
-        "github": "https://github.com/szympol/15.6._Trello-kanban-",
-        "type": "vanillajs, api, all"
-    },
-    {
-        "id": 6,
-        "img": "https://raw.githubusercontent.com/szympol/16.5._Fetch-API/master/images/twitterCover.JPG",
-        "alt": "Generator cytatów połączony z Twitter",
-        "title": "Generator cytatów połączony z Twitter",
-        "desc": "Wygeneruj i prześlij losowy cytat na Twittera.",
-        "demo": "https://szympol.github.io/16.5._Fetch-API/",
-        "github": "https://github.com/szympol/16.5._Fetch-API",
-        "type": "api, all"
-    },
-    {
-        "id": 7,
-        "img": "https://raw.githubusercontent.com/szympol/16.6_Country_Search_Engine/master/images/countrySearchEngine.JPG",
-        "alt": "Fetch API - Wyszukiwarka krajów",
-        "title": "Fetch API - Wyszukiwarka krajów",
-        "desc": "Dowiedź się o podstawowych informacjach wszystkich krajów świata.",
-        "demo": "https://szympol.github.io/16.6_Country_Search_Engine/",
-        "github": "https://github.com/szympol/16.6_Country_Search_Engine",
-        "type": "api, all"
-    },
-    {
-        "id": 8,
         "img": "https://raw.githubusercontent.com/szympol/16.8_Landing_page/master/awaxCover.JPG",
         "alt": "Cięcie Awax landing page",
         "title": "Cięcie Awax landing page",
         "desc": "Przekształcanie projektu z PSD w pełni responsywną stronę z kodem JS.",
         "demo": "https://szympol.github.io/16.8_Landing_page/",
         "github": "https://github.com/szympol/16.8_Landing_page",
-        "type": "layout, api, all"
+        "type": "layout, all"
     },
     {
-        "id": 9,
-        "img": "https://raw.githubusercontent.com/szympol/19.5_Refactoring_Gif-Searcher/master/images/gifCover.jpg",
-        "alt": "Wyszukiwarka gifów",
-        "title": "Wyszukiwarka gifów",
-        "desc": "Szukaj i znajdź odpowiedniego gif'a. Dynamiczna wyszukiwarka gifów.",
-        "demo": "https://szympol.github.io/19.5_Refactoring_Gif-Searcher/",
-        "github": "https://github.com/szympol/19.5_Refactoring_Gif-Searcher",
-        "type": "react, api, all"
-    },
-    {
-        "id": 10,
+        "id": 5,
         "img": "https://raw.githubusercontent.com/szympol/19.7_Stopwatch_ReactJS/master/images/stoperCover.jpg",
         "alt": "Stoper w ReactJS",
         "title": "Stoper w  ReactJS",
         "desc": "Prosta aplikacja stoper. Zliczaj czas i odstępy między interwałami.",
         "demo": "https://szympol.github.io/19.7_Stopwatch_ReactJS/",
         "github": "https://github.com/szympol/19.7_Stopwatch_ReactJS",
-        "type": "react, game, all"
+        "type": "react, other, all"
     },
     {
-        "id": 11,
-        "img": "https://raw.githubusercontent.com/szympol/19.9_Github_User_Search/master/images/githubUserSearchCover.jpg",
-        "alt": "Wyszukiwarka użytkowników GitHub",
-        "title": "Wyszukiwarka użytkowników GitHub",
-        "desc": "Szukaj użytkowników GitHub'a według ich pseudonimów.",
-        "demo": "https://szympol.github.io/19.9_Github_User_Search/",
-        "github": "https://github.com/szympol/19.9_Github_User_Search",
-        "type": "api, react, all"
-    },
-    {
-        "id": 12,
+        "id": 6,
         "img": "https://raw.githubusercontent.com/szympol/25.7_Authenticate_applications_using_Google/master/images/authenticateApplicationsUsingGoogleCover.JPG",
         "alt": "Uwierzytelnianie aplikacji za pomocą Google",
         "title": "Uwierzytelnianie aplikacji za pomocą Google",
         "desc": "Aplikacja do logowania z autoryzacją Google wysłyjąca w podróż kosmiczną.",
         "demo": "",
         "github": "https://github.com/szympol/25.7_Authenticate_applications_using_Google",
-        "type": "node, api, all"
+        "type": "node, all"
     },
     {
-        "id": 13,
+        "id": 7,
         "img": "https://raw.githubusercontent.com/szympol/26._ChatApp/master/images/chatCover.jpg",
         "alt": "Czat",
         "title": "Czat",
@@ -130,7 +70,7 @@
         "type": "react, node, all"
     },
     {
-        "id": 14,
+        "id": 8,
         "img": "https://raw.githubusercontent.com/szympol/28_React_Router_CountriesList/master/images/reactRouterCountriesListCover.jpg",
         "alt": "React Router Lista krajów",
         "title": "React Router Lista krajów",
@@ -140,17 +80,7 @@
         "type": "react, all"
     },
     {
-        "id": 15,
-        "img": "https://raw.githubusercontent.com/szympol/35.6_React_component_tests/master/images/scorekeeperCover.jpg",
-        "alt": "Tablica do punktacji",
-        "title": "Tablica do punktacji",
-        "desc": "Aplikacja do prowadzenia punktacji! Nigdy więcej nie szukaj kawałka papieru!",
-        "demo": "https://brave-joliot-a88cbb.netlify.com/",
-        "github": "https://github.com/szympol/35.6_React_component_tests",
-        "type": "react, all"
-    },
-    {
-        "id": 16,
+        "id": 9,
         "img": "https://raw.githubusercontent.com/szympol/solo-project-1/master/images/banburyCover.JPG",
         "alt": "BMF - Strona z tkaninami",
         "title": "BMF - Strona z tkaninami",
@@ -160,7 +90,7 @@
         "type": "layout, all"
     },
     {
-        "id": 17,
+        "id": 10,
         "img": "https://raw.githubusercontent.com/szympol/warsawjs-workshop-33-seatpick/master/cinemaCover.jpg",
         "alt": "Rezerwacja miejsc w kinie",
         "title": "Rezerwacja miejsc w kinie",
@@ -170,17 +100,7 @@
         "type": "vue, all"
     },
     {
-        "id": 18,
-        "img": "https://raw.githubusercontent.com/szympol/portfolio-site/master/portfolioCover.JPG",
-        "alt": "Strona portfolio",
-        "title": "Strona portfolio",
-        "desc": "Wszystko co najważniejsze o mnie.",
-        "demo": "",
-        "github": "https://github.com/szympol/portfolio-site",
-        "type": "react, layout, all"
-    },
-    {
-        "id": 19,
+        "id": 11,
         "img": "https://raw.githubusercontent.com/szympol/portfolio-site/master/twoStepWizard.jpg",
         "alt": "Two Step Wizard",
         "title": "Dwustopniowy formularz",
@@ -190,7 +110,7 @@
         "type": "react, all"
     },
     {
-        "id": 20,
+        "id": 12,
         "img": "https://raw.githubusercontent.com/szympol/vue-router-travel-app/master/vueRouterTravelApp.jpg",
         "alt": "Vue router travel app",
         "title": "Vue router travel app",
@@ -200,10 +120,10 @@
         "type": "vue, all"
     },
     {
-        "id": 21,
+        "id": 13,
         "img": "https://raw.githubusercontent.com/szympol/portfolio-site/master/mhfGatsby.jpg",
         "alt": "Sofa Upholstery Guide",
-        "title": "Landing Page w Gatsby",
+        "title": "layout Page w Gatsby",
         "desc": "Sofa Upholstery Guide na podstawie Gatsby",
         "demo": "https://www.modernhousefurniture.co.uk/",
         "github": "",

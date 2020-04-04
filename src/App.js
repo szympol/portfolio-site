@@ -18,43 +18,47 @@ import Navigation from "./partials/Navigation";
 import Languages from "./partials/Languages";
 import Footer from "./partials/Footer";
 
+// const projectsDataEn = JSON.parse(projectsDataEnglish).reverse();
+// const projectsDataDe = JSON.parse(projectsDataGerman).reverse();
+// const projectsDataPl = JSON.parse(projectsDataPolish).reverse();
+
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       currentPage: 1,
       data: DataEn,
-      projectsData: projectsDataEn
+      projectsData: projectsDataEn,
     };
     this._pageScroller = null;
   }
 
-  pageOnChange = number => {
+  pageOnChange = (number) => {
     this.setState({ currentPage: number });
   };
 
-  goToPage = eventKey => {
+  goToPage = (eventKey) => {
     this._pageScroller.goToPage(eventKey);
   };
 
   switchLanguageToEnglish = () => {
     this.setState({
       data: DataEn,
-      projectsData: projectsDataEn
+      projectsData: projectsDataEn,
     });
   };
 
   switchLanguageToGerman = () => {
     this.setState({
       data: DataDe,
-      projectsData: projectsDataDe
+      projectsData: projectsDataDe,
     });
   };
 
   switchLanguageToPolish = () => {
     this.setState({
       data: DataPl,
-      projectsData: projectsDataPl
+      projectsData: projectsDataPl,
     });
   };
 
@@ -64,7 +68,7 @@ class App extends React.Component {
         <MediaQuery minWidth={992}>
           <React.Fragment>
             <ReactPageScroller
-              ref={c => (this._pageScroller = c)}
+              ref={(c) => (this._pageScroller = c)}
               pageOnChange={this.pageOnChange}
             >
               <Hero
