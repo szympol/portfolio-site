@@ -41,28 +41,39 @@ class App extends React.Component {
     this._pageScroller.goToPage(eventKey);
   };
 
-  switchLanguageToEnglish = () => {
-    this.setState({
-      data: DataEn,
-      projectsData: projectsDataEn,
-    });
-  };
+  switchLanguage = (language) => {
+    const data =
+      language === "english"
+        ? DataEn
+        : language === "german"
+        ? DataDe
+        : language === "polish"
+        ? DataPl
+        : null;
+    const projectsData =
+      language === "english"
+        ? projectsDataEn
+        : language === "german"
+        ? projectsDataDe
+        : language === "polish"
+        ? projectsDataPl
+        : null;
 
-  switchLanguageToGerman = () => {
     this.setState({
-      data: DataDe,
-      projectsData: projectsDataDe,
-    });
-  };
-
-  switchLanguageToPolish = () => {
-    this.setState({
-      data: DataPl,
-      projectsData: projectsDataPl,
+      data: data,
+      projectsData: projectsData,
     });
   };
 
   render() {
+    const [
+      hero,
+      about,
+      portfolioBox,
+      technologies,
+      navigation,
+      footer,
+    ] = this.state.data;
     return (
       <div className="wrapper">
         <MediaQuery minWidth={992}>
@@ -71,44 +82,38 @@ class App extends React.Component {
               ref={(c) => (this._pageScroller = c)}
               pageOnChange={this.pageOnChange}
             >
-              <Hero
-                strings={this.state.data[0].subtitle}
-                data={this.state.data[0]}
-              />
-              <About data={this.state.data[1]} />
+              <Hero strings={hero.subtitle} data={hero} />
+              <About data={about} />
               <PortfolioBox
-                data={this.state.data[2]}
+                data={portfolioBox}
                 projectsData={this.state.projectsData}
               />
-              <Technologies data={this.state.data[3]} />
+              <Technologies data={technologies} />
             </ReactPageScroller>
-            <Navigation data={this.state.data[4]} goToPage={this.goToPage} />
+            <Navigation data={navigation} goToPage={this.goToPage} />
             <Languages
-              switchLanguageToGerman={this.switchLanguageToGerman}
-              switchLanguageToEnglish={this.switchLanguageToEnglish}
-              switchLanguageToPolish={this.switchLanguageToPolish}
+              switchLanguageToGerman={this.switchLanguage}
+              switchLanguageToEnglish={this.switchLanguage}
+              switchLanguageToPolish={this.switchLanguage}
             />
-            <Footer data={this.state.data[5]} />
+            <Footer data={footer} />
           </React.Fragment>
         </MediaQuery>
         <MediaQuery maxWidth={991}>
-          <Navigation data={this.state.data[4]} />
-          <Hero
-            strings={this.state.data[0].subtitle}
-            data={this.state.data[0]}
-          />
-          <About data={this.state.data[1]} />
+          <Navigation data={navigation} />
+          <Hero strings={hero.subtitle} data={hero} />
+          <About data={about} />
           <PortfolioBox
-            data={this.state.data[2]}
+            data={portfolioBox}
             projectsData={this.state.projectsData}
           />
-          <Technologies data={this.state.data[3]} />
+          <Technologies data={technologies} />
           <Languages
-            switchLanguageToGerman={this.switchLanguageToGerman}
-            switchLanguageToEnglish={this.switchLanguageToEnglish}
-            switchLanguageToPolish={this.switchLanguageToPolish}
+            switchLanguageToGerman={this.switchLanguage}
+            switchLanguageToEnglish={this.switchLanguage}
+            switchLanguageToPolish={this.switchLanguage}
           />
-          <Footer data={this.state.data[5]} />
+          <Footer data={footer} />
         </MediaQuery>
       </div>
     );

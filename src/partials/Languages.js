@@ -22,9 +22,12 @@ class Languages extends React.Component {
     this.showLanguages();
 
     if (this.state.currentLanguage === clickedLanguage) return;
-    if (clickedLanguageAlt === "germany") this.props.switchLanguageToGerman();
-    if (clickedLanguageAlt === "uk") this.props.switchLanguageToEnglish();
-    if (clickedLanguageAlt === "poland") this.props.switchLanguageToPolish();
+    if (clickedLanguageAlt === "germany")
+      this.props.switchLanguageToGerman("german");
+    if (clickedLanguageAlt === "uk")
+      this.props.switchLanguageToEnglish("english");
+    if (clickedLanguageAlt === "poland")
+      this.props.switchLanguageToPolish("polish");
   };
 
   render() {
