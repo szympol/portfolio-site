@@ -31,52 +31,52 @@
     },
     {
         "id": 4,
-        "img": "https://raw.githubusercontent.com/szympol/16.8_Landing_page/master/awaxCover.JPG",
+        "img": "https://raw.githubusercontent.com/szympol/Awax-landing-page-slicing/master/awaxCover.JPG",
         "alt": "Aufteilung Awax landing page",
         "title": "Aufteilung Awax landing page",
         "desc": "Aufteilung einer Internetseite von PSD auf eine vollständige responsive Website mit JS Code.",
-        "demo": "https://szympol.github.io/16.8_Landing_page/",
-        "github": "https://github.com/szympol/16.8_Landing_page",
+        "demo": "https://szympol.github.io/Awax-landing-page-slicing/",
+        "github": "https://github.com/szympol/Awax-landing-page-slicing",
         "type": "layout, all"
     },
     {
         "id": 5,
-        "img": "https://raw.githubusercontent.com/szympol/19.7_Stopwatch_ReactJS/master/images/stoperCover.jpg",
+        "img": "https://raw.githubusercontent.com/szympol/Stopwatch/master/images/stoperCover.jpg",
         "alt": "Stoppuhr in ReactJS",
         "title": "Stoppuhr in ReactJS",
         "desc": "Einfache Stoppuhr-App. Zählen Sie die Zeit und schreiben Sie die Intervalle auf.",
-        "demo": "https://szympol.github.io/19.7_Stopwatch_ReactJS/",
-        "github": "https://github.com/szympol/19.7_Stopwatch_ReactJS",
+        "demo": "https://szympol.github.io/Stopwatch/",
+        "github": "https://github.com/szympol/Stopwatch",
         "type": "react, other, all"
     },
     {
         "id": 6,
-        "img": "https://raw.githubusercontent.com/szympol/25.7_Authenticate_applications_using_Google/master/images/authenticateApplicationsUsingGoogleCover.JPG",
+        "img": "https://raw.githubusercontent.com/szympol/Authenticate-applications-using-Google/master/images/authenticateApplicationsUsingGoogleCover.JPG",
         "alt": "Anmeldung mit Google Authentifizierung",
         "title": "Anmeldung mit Google Authentifizierung",
         "desc": "Raumfahrt Login-App mit Google-Autorisierung.",
         "demo": "",
-        "github": "https://github.com/szympol/25.7_Authenticate_applications_using_Google",
+        "github": "https://github.com/szympol/Authenticate-applications-using-Google",
         "type": "node, all"
     },
     {
         "id": 7,
-        "img": "https://raw.githubusercontent.com/szympol/26._ChatApp/master/images/chatCover.jpg",
+        "img": "https://raw.githubusercontent.com/szympol/ChatApp/master/images/chatCover.jpg",
         "alt": "ChatApp",
         "title": "ChatApp",
         "desc": "Einfache Chat-App. Treten Sie dem Raum bei und teilen Sie Ihre Gedanken.",
         "demo": "",
-        "github": "https://github.com/szympol/26._ChatApp",
+        "github": "https://github.com/szympol/ChatApp",
         "type": "react, node, all"
     },
     {
         "id": 8,
-        "img": "https://raw.githubusercontent.com/szympol/28_React_Router_CountriesList/master/images/reactRouterCountriesListCover.jpg",
+        "img": "https://raw.githubusercontent.com/szympol/React_Router_Countries_List/master/images/reactRouterCountriesListCover.jpg",
         "alt": "React Router Länderliste",
         "title": "React Router Länderliste",
         "desc": "Länderliste App in SPA-Architektur.",
         "demo": "https://frosty-colden-f63461.netlify.com/#/",
-        "github": "https://github.com/szympol/28_React_Router_CountriesList",
+        "github": "https://github.com/szympol/React_Router_Countries_List",
         "type": "react, all"
     },
     {
@@ -101,12 +101,12 @@
     },
     {
         "id": 11,
-        "img": "https://raw.githubusercontent.com/szympol/portfolio-site/master/twoStepWizard.jpg",
+        "img": "https://raw.githubusercontent.com/szympol/two-step-wizard-form/master/twoStepWizard.jpg",
         "alt": "Two Step Wizard",
         "title": "Two Step Wizard",
-        "desc": "Code challenge. Formular mit Validierung, Material UI und body request an API gesendet (siehe Konsole).",
+        "desc": "Formular mit Validierung, Material UI und body request an API gesendet (siehe Konsole).",
         "demo": "https://condescending-elion-95b5aa.netlify.com/",
-        "github": "",
+        "github": "https://github.com/szympol/two-step-wizard-form",
         "type": "react, all"
     },
     {

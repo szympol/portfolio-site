@@ -11,12 +11,12 @@
     },
     {
         "id": 2,
-        "img": "https://raw.githubusercontent.com/szympol/solo-project-1/master/images/dashboardCover.JPG",
+        "img": "https://raw.githubusercontent.com/szympol/Slicing-dashboard-to-static-site/master/images/dashboardCover.JPG",
         "alt": "Dashboard slicing",
         "title": "Dashboard slicing",
         "desc": "Slicing a dashboard from PSD to fully Responsive Website.",
-        "demo": "https://szympol.github.io/solo-project-1/",
-        "github": "https://github.com/szympol/solo-project-1",
+        "demo": "https://szympol.github.io/Slicing-dashboard-to-static-site/",
+        "github": "https://github.com/szympol/Slicing-dashboard-to-static-site",
         "type": "layout, all"
     },
     {
@@ -31,57 +31,57 @@
     },
     {
         "id": 4,
-        "img": "https://raw.githubusercontent.com/szympol/16.8_Landing_page/master/awaxCover.JPG",
+        "img": "https://raw.githubusercontent.com/szympol/Awax-landing-page-slicing/master/awaxCover.JPG",
         "alt": "Awax landing page slicing",
         "title": "Awax landing page slicing",
         "desc": "Slicing a website from PSD to fully Responsive Website with JS code.",
-        "demo": "https://szympol.github.io/16.8_Landing_page/",
-        "github": "https://github.com/szympol/16.8_Landing_page",
+        "demo": "https://szympol.github.io/Awax-landing-page-slicing/",
+        "github": "https://github.com/szympol/Awax-landing-page-slicing",
         "type": "layout, all"
     },
     {
         "id": 5,
-        "img": "https://raw.githubusercontent.com/szympol/19.7_Stopwatch_ReactJS/master/images/stoperCover.jpg",
+        "img": "https://raw.githubusercontent.com/szympol/Stopwatch/master/images/stoperCover.jpg",
         "alt": "Stopwatch in ReactJS",
         "title": "Stopwatch in ReactJS",
         "desc": "Simple stopwatch app. Count time and record intervals.",
-        "demo": "https://szympol.github.io/19.7_Stopwatch_ReactJS/",
-        "github": "https://github.com/szympol/19.7_Stopwatch_ReactJS",
+        "demo": "https://szympol.github.io/Stopwatch/",
+        "github": "https://github.com/szympol/Stopwatch",
         "type": "react, other, all"
     },
     {
         "id": 6,
-        "img": "https://raw.githubusercontent.com/szympol/25.7_Authenticate_applications_using_Google/master/images/authenticateApplicationsUsingGoogleCover.JPG",
+        "img": "https://raw.githubusercontent.com/szympol/Authenticate-applications-using-Google/master/images/authenticateApplicationsUsingGoogleCover.JPG",
         "alt": "Authenticating application using Google",
         "title": "Authenticating application using Google",
         "desc": "Space travel login app with Google authorization.",
         "demo": "",
-        "github": "https://github.com/szympol/25.7_Authenticate_applications_using_Google",
+        "github": "https://github.com/szympol/Authenticate-applications-using-Google",
         "type": "node, all"
     },
     {
         "id": 7,
-        "img": "https://raw.githubusercontent.com/szympol/26._ChatApp/master/images/chatCover.jpg",
+        "img": "https://raw.githubusercontent.com/szympol/ChatApp/master/images/chatCover.jpg",
         "alt": "ChatApp",
         "title": "ChatApp",
         "desc": "Simple Chat app. Join the room and start sharing your thoughts.",
         "demo": "",
-        "github": "https://github.com/szympol/26._ChatApp",
+        "github": "https://github.com/szympol/ChatApp",
         "type": "react, node, all"
     },
     {
         "id": 8,
-        "img": "https://raw.githubusercontent.com/szympol/28_React_Router_CountriesList/master/images/reactRouterCountriesListCover.jpg",
+        "img": "https://raw.githubusercontent.com/szympol/React_Router_Countries_List/master/images/reactRouterCountriesListCover.jpg",
         "alt": "React Router CountriesList",
         "title": "React Router CountriesList",
         "desc": "Countries List app in SPA architecture.",
         "demo": "https://frosty-colden-f63461.netlify.com/#/",
-        "github": "https://github.com/szympol/28_React_Router_CountriesList",
+        "github": "https://github.com/szympol/React_Router_Countries_List",
         "type": "react, all"
     },
     {
         "id": 9,
-        "img": "https://raw.githubusercontent.com/szympol/solo-project-1/master/images/banburyCover.JPG",
+        "img": "https://raw.githubusercontent.com/szympol/Slicing-dashboard-to-static-site/master/images/banburyCover.JPG",
         "alt": "BMF Fabric site",
         "title": "BMF - Fabric Site",
         "desc": "My first commercial site with form based on Bootstrap 3.",
@@ -101,12 +101,12 @@
     },
     {
         "id": 11,
-        "img": "https://raw.githubusercontent.com/szympol/portfolio-site/master/twoStepWizard.jpg",
+        "img": "https://raw.githubusercontent.com/szympol/two-step-wizard-form/master/twoStepWizard.jpg",
         "alt": "Two Step Wizard",
         "title": "Two Step Wizard",
-        "desc": "Code challenge. Form with validation, Material UI and body request sent to API (see console).",
+        "desc": "Form with validation, Material UI and body request sent to API (see console).",
         "demo": "https://condescending-elion-95b5aa.netlify.com/",
-        "github": "",
+        "github": "https://github.com/szympol/two-step-wizard-form",
         "type": "react, all"
     },
     {
