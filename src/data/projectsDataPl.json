@@ -111,7 +111,7 @@
     },
     {
         "id": 12,
-        "img": "https://raw.githubusercontent.com/szympol/vue-router-travel-app/master/vueRouterTravelApp.jpg",
+        "img": "https://raw.githubusercontent.com/szympol/vue-router-travel-app/master/vueTravelApp.jpg",
         "alt": "Vue router travel app",
         "title": "Vue router travel app",
         "desc": "Aplikacja Vue z funkcjami routera i podstawowym uwierzytelnianiem.",
