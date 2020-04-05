@@ -101,6 +101,16 @@
     },
     {
         "id": 11,
+        "img": "https://raw.githubusercontent.com/szympol/portfolio-site/master/portfolioCoverr.JPG",
+        "alt": "Portfolio site",
+        "title": "Portfolio site",
+        "desc": "All important info about me.",
+        "demo": "",
+        "github": "https://github.com/szympol/portfolio-site",
+        "type": "react, layout, all"
+    },
+    {
+        "id": 12,
         "img": "https://raw.githubusercontent.com/szympol/two-step-wizard-form/master/twoStepWizard.jpg",
         "alt": "Two Step Wizard",
         "title": "Two Step Wizard",
@@ -110,7 +120,7 @@
         "type": "react, all"
     },
     {
-        "id": 12,
+        "id": 13,
         "img": "https://raw.githubusercontent.com/szympol/vue-router-travel-app/master/vueTravelApp.jpg",
         "alt": "Vue router travel app",
         "title": "Vue router travel app",
@@ -120,7 +130,7 @@
         "type": "vue, all"
     },
     {
-        "id": 13,
+        "id": 14,
         "img": "https://raw.githubusercontent.com/szympol/portfolio-site/master/mhfGatsby.jpg",
         "alt": "Sofa Upholstery Guide",
         "title": "Landing Page in Gatsby",
