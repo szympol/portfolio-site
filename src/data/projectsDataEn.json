@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "img": "https://raw.githubusercontent.com/szympol/rockPaperScissors/master/images/rockPaperScissorsCover.jpg",
+        "img": "https://raw.githubusercontent.com/szympol/rockPaperScissors/master/images/rockPaperScissorsGame.jpg",
         "alt": "Rock-Paper-Scissors Game",
         "title": "Rock-Paper-Scissors Game",
         "desc": "Rock-Paper-Scissors game. User plays against computer.",
