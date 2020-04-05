@@ -1,4 +1,46 @@
+[<img src="https://raw.githubusercontent.com/szympol/portfolio-site/master/portfolioCoverr.JPG" align="right" alt="Portfolio site" width="40%">](https://raw.githubusercontent.com/szympol/portfolio-site/master/portfolioCoverr.JPG)
+
+# Portfolio site
+
+**`[React]`**
+
+The porfolio site made of four main sections, namely: hero, about-me, my projects and technologies that I am familiar with.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Getting Started
+
+This project requires a server to start working.
+
+- [View project online](https://polanow.ski/)
+
+Please follow instructions below, if you are willing to run the project locally.
+
+### Prerequisites
+
+Both [Git](https://git-scm.com/downloads) and [Node](https://nodejs.org/en/download/) are required to run this project locally.
+
+### Installing
+
+Please copy and paste below commands to your Git terminal step by step to get a development env running.
+
+Download a repository:
+
+```node
+git clone git@github.com:szympol/portfolio-site.git portfolioSite
+```
+
+Go to the project working directory:
+
+```node
+cd portfolioSite
+```
+
+Install all of the dependencies with the following command:
+
+```node
+npm install
+```
 
 ## Available Scripts
 
@@ -6,23 +48,23 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
+Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
+The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
+Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
+Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
+The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -66,3 +108,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Built With
+
+- [React](https://reactjs.org/) - a JavaScript library for building user interfaces.
+
+## Author
+
+- **Szymon Polanowski** - [GitHub Account](https://github.com/szympol)
+
+## License
+
+This project is licensed under the MIT License.
